@@ -6,7 +6,7 @@ body {
   background-image: url("Illustration.png");
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y: bottom;
+  background-position-y: 60vh;
 }
 
 .toolbar {
