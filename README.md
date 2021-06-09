@@ -2,6 +2,7 @@
 
 > This is my first attempt at making my portfolio. 
 
+![screenshot](./screenshot.png)
 
 This is my firt attempt at portfolio built with flex boxes.
 I have added a toolbar and the headline section.
