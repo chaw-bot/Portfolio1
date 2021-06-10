@@ -4,6 +4,7 @@
 
 ![screenshot](./screenshot.png)
 
+![screenshot](./screenshot1.png)
 This is my firt attempt at portfolio built with flex boxes.
 I have added a toolbar and the headline section.
 Some button interactions like hover were implemented.
