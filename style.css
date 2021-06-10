@@ -423,7 +423,6 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0;
   width: 169px;
   height: 336px;
   left: 88px;
@@ -439,7 +438,7 @@ ul {
   height: 24px;
   left: 42px;
   top: 8px;
-  font-family: Inter;
+  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
