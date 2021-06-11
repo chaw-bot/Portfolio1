@@ -108,7 +108,7 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 50px ;
+  padding-top: 50px;
   margin-bottom: 20px;
 }
 
@@ -124,7 +124,6 @@ nav a:hover {
   color: #1c1a19;
   justify-items: center;
   margin: 0;
-  text-align: center;
 }
 
 hr {
