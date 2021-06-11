@@ -1,12 +1,24 @@
 body {
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
   display: flex;
   flex-direction: column;
-  height: 682px;
+  height: 600px;
   background-color: #1c1a19;
   background-image: url("Illustration.png");
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y: 45vh;
+  background-position-y: bottom;
+  background-size: 150px 300px;
+  margin: -10px;
 }
 
 .toolbar {
@@ -15,8 +27,8 @@ body {
   align-items: baseline;
   padding-left: 20px;
   padding-right: 20px;
-  margin: -10px;
   background-color: #3c3a39;
+  width: 100%;
 }
 
 nav a {
@@ -30,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-  color: turquoise;
+  color: tan;
 }
 
 .social li a {
@@ -38,7 +50,7 @@ nav a:hover {
 }
 
 .toolbar a:hover {
-  color: turquoise;
+  color: tan;
 }
 
 .card {
@@ -50,7 +62,10 @@ nav a:hover {
 .card h1 {
   font-size: 56px;
   color: #ff6b00;
-  font-family: Crete Round, sans-serif, 'Times New Roman', Times, serif;
+  font-family: 'Crete Round', serif;
+  letter-spacing: 0.37px;
+  font-style: normal;
+  font-weight: normal;
 }
 
 .card h3 {
@@ -76,5 +91,378 @@ nav a:hover {
 }
 
 .social li a:hover {
-  color: turquoise;
+  color: tan;
+}
+
+.container1 {
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-rows: 800px repeat(6, 386px);
+  margin: 10px 0;
+  width: 100%;
+  height: 3600px;
+}
+
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+
+.card1 h2 {
+  display: flex;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 52px;
+  width: 327px;
+  text-align: center;
+  color: #1c1a19;
+  justify-items: center;
+  margin: 0;
+}
+
+hr {
+  width: 327px;
+  background-color: #212121;
+}
+
+img {
+  margin-top: 50px;
+}
+
+.multiple {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 24px;
+}
+
+.multiple h3 {
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
+  color: #091e42;
+  margin-bottom: 10px;
+}
+
+.multiple p {
+  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.buttons li {
+  margin-right: 10px;
+}
+
+.button {
+  background-color: #fff;
+  border: 1px solid #8993a4;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  color: #091e42;
+  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.button:hover {
+  background-color: #8993a4;
+}
+
+.orange-button {
+  background-color: #ff6b00;
+  border: none;
+  padding: 12px;
+  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.orange-button:hover {
+  background-color: tan;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/card2.png);
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.card2 h3 {
+  color: #fff;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 6px 0;
+  padding: 0 24px;
+}
+
+.card2 p {
+  color: #ffff;
+  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 6px 0;
+  padding: 0 24px;
+}
+
+.buttons1 {
+  display: flex;
+  width: 100%;
+  padding: 0 24px;
+  position: relative;
+  bottom: 6px;
+}
+
+.buttons1 li {
+  margin-right: 10px;
+}
+
+.button1 {
+  background-color: rgba(255, 255, 255, 0.24);
+  border: none;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  color: #ffff;
+  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.button1:hover {
+  background-color: #8993a4;
+}
+
+.orange-button2 {
+  width: 100%;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  height: 1901px;
+  background-color: #1c1a19;
+  margin: -10px;
+  padding: 120px 0 0 24px;
+  align-items: center;
+}
+
+.aboutMe {
+  height: 563px;
+  background-image: url(/Frame.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.aboutMe h1 {
+  width: 327px;
+  height: 79px;
+  left: 24px;
+  top: 120px;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 88px;
+  color: #ff6b00;
+  margin: 24px 0;
+  padding: 0;
+  letter-spacing: 0.4px;
+}
+
+.aboutMe p {
+  width: 327px;
+  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+  margin: 24px 0;
+}
+
+.container2 hr {
+  top: calc(50% - 0px / 2 + 0.5px);
+  color: #fff;
+  width: 327px;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  height: 1261px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.language {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  height: 281.46px;
+  left: 51.77px;
+  top: 120px;
+}
+
+.language h3 {
+  display: flex;
+  align-items: center;
+  padding-left: 35px;
+  color: #ffff;
+  height: 24px;
+  left: 49.46px;
+  top: 8.73px;
+  font-family: Interi, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  background-image: url(language.png);
+  background-repeat: no-repeat;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 12px;
+  width: 186px;
+  height: 216px;
+  left: 19.73px;
+  top: 65.46px;
+}
+
+.list .lang {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffff;
+  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 22px;
+  padding: 12px 0;
+}
+
+.frameworks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: static;
+  width: 281px;
+  height: 336px;
+  left: 24px;
+  top: 425.46px;
+  padding: 24px 0;
+}
+
+.frameworks h3 {
+  display: flex;
+  align-items: center;
+  color: #ffff;
+  height: 24px;
+  left: 42px;
+  top: 8px;
+  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  padding-left: 35px;
+  background-image: url(frameworks.png);
+  background-repeat: no-repeat;
+}
+
+.list1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  height: 336px;
+  left: 24px;
+  top: 425.46px;
+}
+
+.list1 .frame {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffff;
+  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 22px;
+  padding: 12px 0;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 336px;
+  left: 88px;
+  top: 785.46px;
+  padding: 24px 0;
+}
+
+.skills h3 {
+  display: flex;
+  align-items: center;
+  color: #ffff;
+  width: 115px;
+  height: 24px;
+  left: 42px;
+  top: 8px;
+  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  padding-left: 25px;
+  background-image: url(circle.png);
+  background-repeat: no-repeat;
+}
+
+.list2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 12px;
+  height: 272px;
+  left: 15.5px;
+  top: 64px;
+}
+
+.list2 .skill {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffff;
+  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 22px;
+  padding: 12px 0;
 }
