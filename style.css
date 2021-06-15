@@ -555,3 +555,19 @@ fieldset {
   margin-bottom: 24px;
 }
 
+.orange-button3 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+}
+
+.socialfooter {
+ display: flex;
+ flex-direction: row;
+ margin-left: 90px;
+ padding-bottom: 20px;
+}
+
+.socialfooter li a {
+ color: #505f79;
+}
