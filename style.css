@@ -21,14 +21,14 @@ body {
   margin: -10px;
 }
 
+nav a {
+  color: #fff;
+}
+
 .toolbar a {
   text-decoration: none;
   color: #fff;
   font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-nav a {
-  color: #fff;
 }
 
 .socialfooter li a {
