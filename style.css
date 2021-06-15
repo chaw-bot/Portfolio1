@@ -502,5 +502,11 @@ footer {
   margin: -10px;
 }
 
-
+fieldset {
+  width: 327px;
+  height: 330px;
+  border: none;
+  padding-top: 200px;
+  margin: -10px;
+}
  
