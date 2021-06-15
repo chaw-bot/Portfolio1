@@ -555,7 +555,7 @@ fieldset {
   margin-bottom: 24px;
 }
 
-.orange-button3 {
+.orange-button4 {
   display: flex;
   flex-direction: row;
   margin-left: 100px;
@@ -573,6 +573,9 @@ fieldset {
 }
 
 .last {
+  display: flex;
+  flex-direction: row;
+  margin-left: 125px;
   width: 125px;
   height: 5px;
   border-radius: 10px;
