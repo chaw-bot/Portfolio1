@@ -510,3 +510,18 @@ fieldset {
   margin: -10px;
 }
  
+#name {
+  display: flex;
+  align-items: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #979493;
+  font-family: Inter;
+  font-size: 15px;
+  border-bottom: 327px thin #dbd8d7;
+  border-color:#dbd8d7;
+  margin-bottom: 39px;
+  width: 327px;
+  background-color: #e5e5e5;
+}
