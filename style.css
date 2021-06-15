@@ -21,6 +21,16 @@ body {
   margin: -10px;
 }
 
+.toolbar a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav a {
+  color: #fff;
+}
+
 .socialfooter li a {
   color: #505f79;
 }
@@ -33,16 +43,6 @@ body {
   padding-right: 20px;
   background-color: #3c3a39;
   width: 100%;
-}
-
-nav a {
-  color: #fff;
-}
-
-.toolbar a {
-  text-decoration: none;
-  color: #fff;
-  font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 nav a:hover {
@@ -592,7 +592,7 @@ fieldset {
   color: #979493;
   width: 100%;
   margin-left: -10px;
-  border-bottom: 327px thin #dbd8d7;
+  border-bottom: 1px solid #dbd8d7;
   border-color: #dbd8d7;
   margin-bottom: 10px;
   background-color: #e5e5e5;
