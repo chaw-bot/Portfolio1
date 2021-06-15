@@ -477,4 +477,14 @@ footer {
   overflow: hidden;
  }
  
+ .form {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  height: 844px;
+  width: 375px;
+  align-items: flex-start;
+  padding: 0 24px;
+  margin: -10px;
+}
  
