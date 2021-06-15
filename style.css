@@ -571,3 +571,25 @@ fieldset {
 .socialfooter li a {
  color: #505f79;
 }
+
+.last {
+  width: 125px;
+  height: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.divide {
+  display: flex;
+  align-items: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #979493;
+  width: 100%;
+  margin-left: -10px;
+  border-bottom: 327px thin #dbd8d7;
+  border-color:#dbd8d7;
+  margin-bottom: 39px;
+  background-color: #e5e5e5;
+}
