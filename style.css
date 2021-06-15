@@ -88,6 +88,7 @@ nav a:hover {
   list-style-type: none;
   justify-content: space-between;
   width: 200px;
+  padding-top: 10px;
 }
 
 .social li a:hover {
