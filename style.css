@@ -499,10 +499,10 @@ footer {
   font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
   font-size: 32px;
-  line-height: 44px;
+  line-height: 42px;
   text-align: center;
   color: #172b4d;
-  padding-top: 120px;
+  padding-top: 100px;
   margin: 24px 0;
   margin: -10px;
 }
