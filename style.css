@@ -525,3 +525,33 @@ fieldset {
   width: 327px;
   background-color: #e5e5e5;
 }
+
+#email {
+  display: flex;
+  align-items: center;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #979493;
+  font-family: Inter;
+  font-size: 15px;
+  width: 327px;
+  border-bottom: 327px thin #dbd8d7;
+  border-color:#dbd8d7;
+  margin-bottom: 39px;
+  background-color: #e5e5e5;
+}
+
+#msg {
+  display: flex;
+  align-items: center;
+  border: none;
+  color: #979493;
+  font-family: Inter;
+  font-size: 15px;
+  background-color: #fbf8f7;
+  width: 327px;
+  height: 114px;
+  margin-bottom: 24px;
+}
+
