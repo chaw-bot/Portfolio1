@@ -25,7 +25,7 @@
       </header>
 
       <section class="card">
-        <h1>Hey There.<br>I'm Alex </h1>
+        <h1>Hey There.<br>I'm Chaw </h1>
         
         <h3>I'am a Software Developer</h3>
 
@@ -185,7 +185,7 @@
             <li><button type="button" class="button1">Ruby</button></li>
           </ul>
           
-          <button type="button" class="orange-button orange-button2">See Project</button>
+          <button type="button" class="orange-button orange-button3">See Project</button>
         </li>
       </ul>
     </section>
@@ -204,7 +204,7 @@
         </p>
 
         <div>
-          <button class="orange-button orange-button3">Get My Resume</button>
+          <button type="submit" class="orange-button orange-button3">Get My Resume</button>
         </div>
       </section>
 
@@ -250,5 +250,60 @@
       </section>
     </section>
   </main>
+
+  <footer>
+    <section class="form">
+      <h3>
+        I'm always 
+        interested in hearing 
+        about new projects, 
+        so if you'd like to 
+        chat please get in touch. 
+      </h3>
+    
+      <form action="https://formspree.io/f/xjvjregp" method="post">
+        <fieldset>
+          <ul>
+            <li>
+              <label for="name">
+                <input type="text" id="name" name="full name" placeholder="Full name" maxlength="30" required>
+              </label>
+            </li>
+            
+            <li>
+              <label for="email">
+                <!-- only email addresses are accepted and it is a required field -->
+                <input type="email" id="email" name="email address" placeholder="Email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+              </label>
+            </li>
+            
+            <li>
+              <label for="msg"></label>
+              <textarea id="msg" name="text" placeholder="Enter text here" maxlength="500" required></textarea>
+            </li>
+    
+            <li>
+              <button type="submit" class="orange-button orange-button4">Get in touch</button>
+            </li>
+          </ul>
+        </fieldset>
+      </form>
+    </section>      
+    
+    <hr class="divide">
+  
+    <section class="bottomNav">
+      <ul class="socialfooter">
+        <li><a href="#"><i class="fa fa-2x fa-github"></i></a></li>
+        <li><a href="#"><i class="fa fa-2x fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fa fa-2x fa-angellist clr-secondary"></i></a></li>
+        <li><a href="#"><i class="fa fa-2x fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-2x fa-medium"></i></a></li>
+      </ul>
+    </section>
+  
+    <hr class="last">
+  </footer>
 </body>
 </html>
+
