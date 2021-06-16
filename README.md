@@ -2,9 +2,9 @@
 
 > This is my first attempt at making my portfolio. 
 
-![screenshot](./screenshot.png)
+![screenshot](images/screenshot.png)
 
-![screenshot](./Screenshot1.png)
+![screenshot](images/Screenshot1.png)
 
 
 This is my firt attempt at portfolio built with flex boxes.

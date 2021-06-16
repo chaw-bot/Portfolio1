@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   height: 600px;
   background-color: #1c1a19;
-  background-image: url("Illustration.png");
+  background-image: url("images/Illustration.png");
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
@@ -211,7 +211,7 @@ ul {
 .card2 {
   display: flex;
   flex-direction: column;
-  background-image: url(/card2.png);
+  background-image: url(images/card2.png);
   justify-content: flex-end;
   list-style: none;
 }
@@ -282,7 +282,7 @@ ul {
 
 .aboutMe {
   height: 563px;
-  background-image: url(/Frame.png);
+  background-image: url(images/Frame.png);
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
@@ -352,7 +352,7 @@ ul {
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
-  background-image: url(language.png);
+  background-image: url(images/language.png);
   background-repeat: no-repeat;
 }
 
@@ -401,7 +401,7 @@ ul {
   font-size: 32px;
   line-height: 44px;
   padding-left: 35px;
-  background-image: url(frameworks.png);
+  background-image: url(images/frameworks.png);
   background-repeat: no-repeat;
 }
 
@@ -448,7 +448,7 @@ ul {
   font-size: 32px;
   line-height: 44px;
   padding-left: 25px;
-  background-image: url(circle.png);
+  background-image: url(images/circle.png);
   background-repeat: no-repeat;
 }
 
