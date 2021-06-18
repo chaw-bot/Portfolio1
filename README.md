@@ -2,14 +2,26 @@
 
 > This is my first attempt at making my portfolio. 
 
+Below, I have attached screenshots of the: 
+
+Mobile Version.
+
 ![screenshot](images/screenshot.png)
 
 ![screenshot](images/Screenshot1.png)
 
+Desktop Version
 
-This is my firt attempt at portfolio built with flex boxes.
-I have added a toolbar and the headline section.
-Some button interactions like hover were implemented.
+![screenshot](images/Desktop.png)
+
+In this project I built a portifolio using a variety of CSS properties such us,
+Flex-box, Grid, media queries, animations and transitions.
+
+To this project I have added :
+- A toolbar
+- Social media icon
+- A form 
+- Button interactions like hover.
 
 ## Built With
 
