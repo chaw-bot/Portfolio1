@@ -866,4 +866,13 @@ fieldset {
   .categories ul {
     height: auto;
   }
+
+  /* Makes the logo rotate and change color once when you hover over it*/
+
+  .toolbar a h3:hover {
+    animation-duration: 3s;
+    animation-name: rotate;
+    animation-iteration-count: 1;
+  }
+
 }
