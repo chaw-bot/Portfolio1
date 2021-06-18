@@ -879,10 +879,12 @@ fieldset {
     from {
       transform: rotate(0deg);
     }
+
     to {
       transform: rotate(360deg);
       color: aquamarine;
       font-size: 20px;
     }
   }
+  
 }
