@@ -2,11 +2,13 @@
 
 > This is my first attempt at making my portfolio. 
 
+You can [click here](https://chaw-bot.github.io/Portfolio1/) to veiw my portfolio. 
+
 Below, I have attached screenshots of the: 
 
 Mobile Version.
 
-![screenshot](images/screenshot.png)
+![screenshot](images/screen.png)
 
 ![screenshot](images/Screenshot1.png)
 
@@ -43,6 +45,7 @@ To this project I have added :
 
 - GitHub: [@chaw-bot](https://github.com/chaw-bot)
 - Twitter: [@chaw36422087](https://twitter.com/chaw36422087)
+- LinkedIn[Chawanzi Ng'uni](https://www.linkedin.com/in/chawanzi-ng-uni-449328212/)
 
 
 ## 🤝 Contributing
