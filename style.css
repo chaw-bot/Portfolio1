@@ -229,6 +229,7 @@ ul {
   background-image: url(images/card2.png);
   justify-content: flex-end;
   list-style: none;
+  filter: contrast(1.5);
 }
 
 .card2 h3 {
