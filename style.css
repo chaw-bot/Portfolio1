@@ -215,6 +215,8 @@ ul {
   line-height: 24px;
   color: #fff;
   margin-top: 10px;
+  filter: contrast(1.8);
+
 }
 
 .orange-button:hover {
@@ -273,6 +275,8 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
+  filter: contrast(1.8);
+
 }
 
 .button1:hover {
@@ -736,6 +740,7 @@ legend {
     background-image: url(images/first.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    filter: contrast(1.5);
   }
 
   .first h3 {
@@ -754,30 +759,36 @@ legend {
     background-image: url(images/second.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    filter: contrast(1.5);
   }
 
   .third {
     background-image: url(images/third.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    filter: contrast(1.5);
   }
 
   .fourth {
     background-image: url(images/fourth.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    filter: contrast(1.5);
+
   }
 
   .fifth {
     background-image: url(images/fifth.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    filter: contrast(1.5);
   }
 
   .sixth {
     background-image: url(images/third.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    filter: contrast(1.5);
   }
 
   .buttons1 {
