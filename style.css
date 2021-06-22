@@ -578,6 +578,7 @@ legend {
   display: flex;
   flex-direction: row;
   margin-left: 100px;
+  filter: contrast(1.8);
 }
 
 .socialfooter {
