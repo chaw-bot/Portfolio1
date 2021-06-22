@@ -78,7 +78,7 @@ nav a:hover {
   letter-spacing: 0.37px;
 }
 
-.card h3 {
+.card h2 {
   font-size: 24px;
   color: #fff5e1;
   font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -351,7 +351,7 @@ ul {
   top: 120px;
 }
 
-.language h3 {
+.language h2 {
   display: flex;
   align-items: center;
   padding-left: 35px;
@@ -395,7 +395,7 @@ ul {
   padding: 24px 0;
 }
 
-.frameworks h3 {
+.frameworks h2 {
   display: flex;
   align-items: center;
   color: #ffff;
@@ -440,7 +440,7 @@ ul {
   padding: 24px 0;
 }
 
-.skills h3 {
+.skills h2 {
   display: flex;
   align-items: center;
   color: #ffff;
@@ -516,6 +516,14 @@ fieldset {
   border: none;
   padding-top: 200px;
   margin: -10px;
+}
+
+label {
+  display: none;
+}
+
+legend {
+  display: none;
 }
 
 #name {
