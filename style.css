@@ -493,7 +493,7 @@ footer {
   overflow-x: hidden;
   height: 844px;
   width: 100%;
-  align-items: flex-start;
+  align-items: center;
   padding: 0 24px;
   margin: -10px;
 }
@@ -825,6 +825,7 @@ fieldset {
   .form {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
     padding-left: 100px;
     padding-right: 100px;
   }
