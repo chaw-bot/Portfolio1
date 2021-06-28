@@ -4,14 +4,6 @@ const menuBtn = document.querySelector('.menu');
 const menuIcon = document.querySelector('nav .menu i');
 const envelope = document.querySelector('.fa-envelope');
 
-function toggleMenu() {
-  if (nav_list.style.display === 'none') {
-    openMenu();
-  } else {
-    closeMenu();
-  }
-}
-
 function openMenu() {
   nav.classList.add('nav');
   menuIcon.classList.replace('fa-bars', 'fa-times');
@@ -29,4 +21,12 @@ function closeMenu() {
   envelope.style.display = 'inline-block';
   menuIcon.style.fontSize = '1em';
   menuBtn.style.color = '#fff';
+}
+
+function toggleMenu() {
+  if (navList.style.display === 'none') {
+    openMenu();
+  } else {
+    closeMenu();
+  }
 }
