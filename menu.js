@@ -1,11 +1,11 @@
-var nav = document.querySelector("nav");
-var nav_list = document.querySelector(".nav-bar-list");
-var menu_btn = document.querySelector(".menu");
-var menu_icon = document.querySelector("nav .menu i");
-var envolope = document.querySelector(".fa-envelope");
+const nav = document.querySelector('nav');
+const navList = document.querySelector('.nav-bar-list');
+const menuBtn = document.querySelector('.menu');
+const menuIcon = document.querySelector('nav .menu i');
+const envelope = document.querySelector('.fa-envelope');
 
 function toggleMenu() {
-  if (nav_list.style.display == "none") {
+  if (nav_list.style.display === 'none') {
     openMenu();
   } else {
     closeMenu();
@@ -13,20 +13,20 @@ function toggleMenu() {
 }
 
 function openMenu() {
-  nav.classList.add("nav");
-  menu_icon.classList.replace("fa-bars", "fa-times");
-  menu_icon.style.fontSize = "0.5em";
-  menu_btn.classList.add("align-end");
-  menu_btn.style.color = "rgba(103, 121, 142, 1)";
-  nav_list.style.display = "flex";
-  envolope.style.display = "none";
+  nav.classList.add('nav');
+  menuIcon.classList.replace('fa-bars', 'fa-times');
+  menuIcon.style.fontSize = '0.5em';
+  menuBtn.classList.add('align-end');
+  menuBtn.style.color = 'rgba(103, 121, 142, 1)';
+  navList.style.display = 'flex';
+  envelope.style.display = 'none';
 }
 
 function closeMenu() {
-  nav.classList.remove("nav");
-  menu_icon.classList.replace("fa-times", "fa-bars");
-  nav_list.style.display = "none";
-  envolope.style.display = "inline-block";
-  menu_icon.style.fontSize = "1em";
-  menu_btn.style.color = "#fff";
+  nav.classList.remove('nav');
+  menuIcon.classList.replace('fa-times', 'fa-bars');
+  navList.style.display = 'none';
+  envelope.style.display = 'inline-block';
+  menuIcon.style.fontSize = '1em';
+  menuBtn.style.color = '#fff';
 }
