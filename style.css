@@ -28,7 +28,8 @@ nav .menu {
 .toolbar a {
   text-decoration: none;
   color: #fff;
-  font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Roboto, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .socialfooter li a {
@@ -56,6 +57,7 @@ nav .menu {
   top: 0;
   left: 0;
   padding: 0 24px;
+  text-align: right;
 }
 
 .nav-bar-list {
@@ -91,21 +93,22 @@ nav a:hover {
 .card h1 {
   font-size: 56px;
   color: #ff6b00;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   letter-spacing: 0.37px;
 }
 
 .card h2 {
   font-size: 24px;
   color: #fff5e1;
-  font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Roboto, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
   margin-top: -45px;
 }
 
 .card p {
   font-size: 16px;
   color: #fff;
-  font-family: Poppins, sans-serif, 'Times New Roman', Times, serif;
+  font-family: Poppins, sans-serif, "Times New Roman", Times, serif;
   margin-top: -15px;
   width: 320px;
 }
@@ -148,7 +151,7 @@ nav a:hover {
 
 .card1 h2 {
   display: flex;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -177,14 +180,15 @@ img {
 }
 
 .multiple h3 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 32px;
   color: #091e42;
   margin-bottom: 10px;
 }
 
 .multiple p {
-  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
@@ -211,7 +215,8 @@ ul {
   box-sizing: border-box;
   padding: 10px 12px;
   color: #091e42;
-  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
@@ -225,7 +230,8 @@ ul {
   background-color: #ff6b00;
   border: none;
   padding: 12px;
-  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -250,7 +256,7 @@ ul {
 
 .card2 h3 {
   color: #fff;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
@@ -261,7 +267,8 @@ ul {
 
 .card2 p {
   color: #ffff;
-  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -288,7 +295,8 @@ ul {
   box-sizing: border-box;
   padding: 10px 12px;
   color: #ffff;
-  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
@@ -325,7 +333,7 @@ ul {
   height: 79px;
   left: 24px;
   top: 120px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 72px;
@@ -338,7 +346,8 @@ ul {
 
 .aboutMe p {
   width: 327px;
-  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -379,7 +388,8 @@ ul {
   height: 24px;
   left: 49.46px;
   top: 8.73px;
-  font-family: Interi, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Interi, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
@@ -400,7 +410,8 @@ ul {
 
 .list .lang {
   color: #ffff;
-  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 22px;
   padding: 12px 0;
 }
@@ -422,7 +433,8 @@ ul {
   height: 24px;
   left: 42px;
   top: 8px;
-  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
@@ -446,7 +458,8 @@ ul {
   align-items: center;
   text-align: center;
   color: #ffff;
-  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 22px;
   padding: 12px 0;
 }
@@ -468,7 +481,8 @@ ul {
   height: 24px;
   left: 42px;
   top: 8px;
-  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
@@ -492,7 +506,8 @@ ul {
   align-items: center;
   text-align: center;
   color: #ffff;
-  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 22px;
   padding: 12px 0;
 }
@@ -521,7 +536,8 @@ footer {
 .remarks {
   width: 100%;
   height: 216px;
-  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: 32px;
   line-height: 42px;
@@ -553,7 +569,8 @@ legend {
   border-left: none;
   border-right: none;
   color: #979493;
-  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 15px;
   border-bottom: 1px solid #dbd8d7;
   border-color: #dbd8d7;
@@ -569,7 +586,8 @@ legend {
   border-left: none;
   border-right: none;
   color: #979493;
-  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 15px;
   width: 100%;
   border-bottom: 1px solid #dbd8d7;
@@ -583,7 +601,8 @@ legend {
   align-items: center;
   border: none;
   color: #979493;
-  font-family: Inter, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 15px;
   background-color: #fbf8f7;
   width: 327px;
@@ -660,7 +679,8 @@ legend {
     list-style: none;
     text-decoration: none;
     color: #fff;
-    font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu,
+      Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
 
   .card {
