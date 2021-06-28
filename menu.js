@@ -30,3 +30,5 @@ function menu() {
     closeMenu();
   }
 }
+
+menu();
