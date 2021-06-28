@@ -15,7 +15,9 @@ function toggleMenu() {
 function openMenu() {
   nav.classList.add("nav");
   menu_icon.classList.replace("fa-bars", "fa-times");
+  menu_icon.style.fontSize = "0.5em";
   menu_btn.classList.add("align-end");
+  menu_btn.style.color = "rgba(103, 121, 142, 1)";
   nav_list.style.display = "flex";
   envolope.style.display = "none";
 }
@@ -25,4 +27,6 @@ function closeMenu() {
   menu_icon.classList.replace("fa-times", "fa-bars");
   nav_list.style.display = "none";
   envolope.style.display = "inline-block";
+  menu_icon.style.fontSize = "1em";
+  menu_btn.style.color = "#fff";
 }

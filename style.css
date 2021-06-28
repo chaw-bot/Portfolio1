@@ -53,7 +53,7 @@ nav .menu {
   background-color: #3c3a39;
   font-size: 32px;
   line-height: 44px;
-  font-weight: 700px;
+  font-weight: 700;
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -67,10 +67,9 @@ nav .menu {
 }
 
 .border-bottom {
-  border-bottom:1px solid #979493;
+  border-bottom: 1px solid #979493;
   padding-bottom: 10px;
   width: 100%;
-
 }
 
 .nav-bar-list {
@@ -681,6 +680,7 @@ legend {
   }
 
   nav .menu {
+    margin: 34px;
     display: none;
   }
 
