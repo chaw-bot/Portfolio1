@@ -45,8 +45,25 @@ nav .menu {
   width: 100%;
 }
 
+.nav {
+  background-color: #3c3a39;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700px;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  padding: 0 24px;
+}
+
 .nav-bar-list {
   display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  column-gap: 25px;
 }
 
 .nav-bar-list:hover {
