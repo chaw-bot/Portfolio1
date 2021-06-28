@@ -23,7 +23,7 @@ function closeMenu() {
   menuBtn.style.color = '#fff';
 }
 
-function toggleMenu() {
+function menu() {
   if (navList.style.display === 'none') {
     openMenu();
   } else {
