@@ -15,6 +15,7 @@ function toggleMenu() {
 function openMenu() {
   nav.classList.add("nav");
   menu_icon.classList.replace("fa-bars", "fa-times");
+  menu_btn.classList.add("align-end");
   nav_list.style.display = "flex";
   envolope.style.display = "none";
 }

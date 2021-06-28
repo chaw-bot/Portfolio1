@@ -44,13 +44,11 @@
           </a>
 
           <nav>
-            <a class="menu" href="#" aria-label="bars" onclick="toggleMenu();"
-              ><i class="fa fa-bars"></i
-            ></a>
+            <a class="menu" href="#" aria-label="bars" onclick="toggleMenu();"><i class="fa fa-bars"></i></a>
             <ul class="nav-bar-list">
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
+              <li class="border-bottom"><a onclick="closeMenu();" href="#Portfolio">Portfolio</a></li>
+              <li class="border-bottom"><a onclick="closeMenu();" href="#About">About</a></li>
+              <li class="border-bottom"><a onclick="closeMenu();" href="#Contact">Contact</a></li>
               <li>
                 <a href="#" aria-label="envelope"
                   ><i class="fa fa-envelope"></i
@@ -122,7 +120,7 @@
         </section>
       </section>
 
-      <section>
+      <section id="Portfolio">
         <ul class="container1">
           <li class="card1">
             <div class="myWork">
@@ -309,7 +307,7 @@
       </section>
 
       <section class="container2">
-        <section class="aboutMe">
+        <section class="aboutMe" id="About">
           <h1>About me</h1>
 
           <p>
@@ -370,7 +368,7 @@
     </main>
 
     <footer>
-      <section class="form">
+      <section class="form" id="Contact">
         <div class="remarks">
           <h3>
             I'm always interested in hearing about new projects, so if you'd

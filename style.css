@@ -47,6 +47,9 @@ nav .menu {
 }
 
 .nav {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
   background-color: #3c3a39;
   font-size: 32px;
   line-height: 44px;
@@ -57,7 +60,17 @@ nav .menu {
   top: 0;
   left: 0;
   padding: 0 24px;
-  text-align: right;
+}
+
+.align-end {
+  align-self: flex-end;
+}
+
+.border-bottom {
+  border-bottom:1px solid #979493;
+  padding-bottom: 10px;
+  width: 100%;
+
 }
 
 .nav-bar-list {
