@@ -1,5 +1,5 @@
 const nav = document.querySelector('nav');
-const navList = document.querySelector('.nav-bar-list');
+const navList = document.querySelector('.nav-bar-list2');
 const menuBtn = document.querySelector('.menu');
 const menuIcon = document.querySelector('nav .menu i');
 const envelope = document.querySelector('.fa-envelope');
