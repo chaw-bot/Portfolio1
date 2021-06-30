@@ -1,32 +1,130 @@
-// //code for project pop up
+//object
+const projects = {
+    project1: {
+      title: 'Multi Post Stories',
+      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+      unknown printer took a galley of type and scrambled it to make a type specimen book. 
+      It has survived not only five centuries, but also the leap into electronic typesetting, 
+      remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+      unknown printer took a galley of type and scrambled it to make a type specimen book. 
+      It has survived not only five centuries, but also the leap into electronic typesetting, 
+      remaining essent`,
+      image: {
+        imageUrl: 'images/Portfolio.png',
+        imageAlt: 'Image with number 10 at the center',
+      },
+      technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+      liveUrl: 'multipoststories.html',
+      soureUrl: 'multipoststoriesSource.html',
+    },
+    project2: {
+      title: 'Keeping track of hundreds  of components website',
+      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+      unknown printer took a galley of type and scrambled it to make a type specimen book. 
+      It has survived not only five centuries, but also the leap into electronic typesetting, 
+      remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+      unknown printer took a galley of type and scrambled it to make a type specimen book. 
+      It has survived not only five centuries, but also the leap into electronic typesetting, 
+      remaining essent`,
+      image: {
+        imageUrl: 'images/Portfolio.png',
+        imageAlt: 'Image with number 10 at the center',
+      },
+      technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+      liveUrl: 'multipoststories.html',
+      soureUrl: 'multipoststoriesSource.html',
+    },
+    project3: {
+      title: 'Project 3',
+      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+      unknown printer took a galley of type and scrambled it to make a type specimen book. 
+      It has survived not only five centuries, but also the leap into electronic typesetting, 
+      remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+      unknown printer took a galley of type and scrambled it to make a type specimen book. 
+      It has survived not only five centuries, but also the leap into electronic typesetting, 
+      remaining essent`,
+      image: {
+        imageUrl: 'images/Portfolio.png',
+        imageAlt: 'Image with number 10 at the center',
+      },
+      technologies: ['html', 'css', 'javaScript'],
+      liveUrl: 'TonicLive.html',
+      soureUrl: 'Tonic.html',
+    },
+    project4: {
+      title: 'Project 4',
+      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+      unknown printer took a galley of type and scrambled it to make a type specimen book. 
+      It has survived not only five centuries, but also the leap into electronic typesetting, 
+      remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+      unknown printer took a galley of type and scrambled it to make a type specimen book. 
+      It has survived not only five centuries, but also the leap into electronic typesetting, 
+      remaining essent`,
+      image: {
+        imageUrl: 'images/Portfolio.png',
+        imageAlt: 'Image with number 10 at the center',
+      },
+      technologies: ['html', 'css', 'javaScript'],
+      liveUrl: 'mpStoriesLive.html',
+      soureUrl: 'mpStories.html',
+    },
+  };
 
-// // Get the modal
-// const popUp = document.getElementById("popUp");
+  //Generate HTML
+  const popup = document.getElementsByClassName('popUpProject')[0];
 
-// // Get the button that opens the modal
-// const open = document.getElementById("open");
+  function generateModal(project) {
+    let htmlText = `<div class="modal" id="modal">
+                      <div class="modal-header">
+                       <div class="title">${project.title}</div>
+                       <button data-close-button class="close-button">&times;</button>
+                      </div>
+                      <div class="top-buttons">
+                        <ul class="buttons">`;
+    
+      for (let i = 0; i < project.technologies.length; i += 1 ){
 
-// // Get the <span> element that closes the modal
-// const close = document.getElementsByClassName("close")[0];
+      htmlText += `<li><button type="button" class="button"
+                >${project.technologies[i]}</button></li>`;
+    }
+      htmlText += `</ul>
+                    </div>              
+                    <div class="theBody">
+                    <div class="popUp-img">
+                      <img src="${project.image.imageUrl}" alt="${project.image.imageAlt}">
+                    </div>
+    
+                    <div class="body-button">
+                      <div class="modal-body">
+                      ${project.description}
+                      </div>
+    
+                      <div class="bt-buttons">
+                        <a href="${project.liveUrl}" class="orange-button">See Live  <i class="fa fa-external-link"></i></a>
+                        <a href="${project.sourceUrl}" class="orange-button">See Source  <i class="fa fa-github"></i></a>
+                      </div>
+                    </div>
+                  </div>  
+                </div>`;
 
-// // When the user clicks the button, open the modal 
-// open.onclick = function () {
-//   popUp.style.display = "block";
-// };
+    return htmlText;
+  }
 
-// // When the user clicks on (x), close the modal
-// close.onclick = function () {
-//   popUp.style.display = "none";
-// };
+  function insertHtml() {
+    popup.innerHTML += generateModal(projects.project1);
+  }
+  
+  popup.onload = insertHtml();
 
-// // When the user clicks anywhere outside of the modal, close it
-// window.onclick = function (event) {
-//   if (event.target === popUp) {
-//     popUp.style.display = "none";
-//   }
-// };
-
-
+//open close modals
 const openModalBtns = document.querySelectorAll('[data-modal-target]');
 const closeModalBtns = document.querySelectorAll('[data-close-button]');
 const overlay = document.getElementById('overlay');
@@ -56,104 +154,4 @@ closeModalBtns.forEach(closeBtn => {
     closeModal(currentModal);
   });
 });
-
-
-//object
-const projects = {
-    project1: {
-      title: 'Tonic',
-      details: {
-        client: 'CANOPY',
-        role: 'Back End Dev',
-        year: '2015',
-      },
-      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-      unknown printer took a galley of type and scrambled it to make a type specimen book. 
-      It has survived not only five centuries, but also the leap into electronic typesetting, 
-      remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-      unknown printer took a galley of type and scrambled it to make a type specimen book. 
-      It has survived not only five centuries, but also the leap into electronic typesetting, 
-      remaining essent`,
-      image: {
-        imageUrl: './img/snapshoot1.png',
-        imageAlt: 'project preview image',
-      },
-      technologies: ['html', 'css', 'javaScript'],
-      liveUrl: 'TonicLive.html',
-      soureUrl: 'Tonic.html',
-    },
-    project2: {
-      title: 'Multi-Post Stories',
-      details: {
-        client: 'Canopy',
-        role: 'Back End Dev',
-        year: '2015',
-      },
-      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-      unknown printer took a galley of type and scrambled it to make a type specimen book. 
-      It has survived not only five centuries, but also the leap into electronic typesetting, 
-      remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-      unknown printer took a galley of type and scrambled it to make a type specimen book. 
-      It has survived not only five centuries, but also the leap into electronic typesetting, 
-      remaining essent`,
-      image: {
-        imageUrl: './img/snapshoot1.png',
-        imageAlt: 'project preview image',
-      },
-      technologies: ['html', 'css', 'javaScript'],
-      liveUrl: 'mpStoriesLive.html',
-      soureUrl: 'mpStories.html',
-    },
-    project3: {
-      title: 'Project 3',
-      details: {
-        client: 'Canopy',
-        role: 'Back End Dev',
-        year: '2015',
-      },
-      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-      unknown printer took a galley of type and scrambled it to make a type specimen book. 
-      It has survived not only five centuries, but also the leap into electronic typesetting, 
-      remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-      unknown printer took a galley of type and scrambled it to make a type specimen book. 
-      It has survived not only five centuries, but also the leap into electronic typesetting, 
-      remaining essent`,
-      image: {
-        imageUrl: './img/snapshoot1.png',
-        imageAlt: 'project preview image',
-      },
-      technologies: ['html', 'css', 'javaScript'],
-      liveUrl: 'TonicLive.html',
-      soureUrl: 'Tonic.html',
-    },
-    project4: {
-      title: 'Project 4',
-      details: {
-        client: 'Canopy',
-        role: 'Back End Dev',
-        year: '2015',
-      },
-      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-      unknown printer took a galley of type and scrambled it to make a type specimen book. 
-      It has survived not only five centuries, but also the leap into electronic typesetting, 
-      remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-      unknown printer took a galley of type and scrambled it to make a type specimen book. 
-      It has survived not only five centuries, but also the leap into electronic typesetting, 
-      remaining essent`,
-      image: {
-        imageUrl: './img/snapshoot1.png',
-        imageAlt: 'project preview image',
-      },
-      technologies: ['html', 'css', 'javaScript'],
-      liveUrl: 'mpStoriesLive.html',
-      soureUrl: 'mpStories.html',
-    },
-  };
+  
