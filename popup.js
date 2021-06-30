@@ -12,10 +12,10 @@ const projects = {
       It has survived not only five centuries, but also the leap into electronic typesetting, 
       remaining essent`,
       image: {
-        imageUrl: 'images/Portfolio.png',
-        imageAlt: 'Image with number 10 at the center',
+        imageUrl: 'images/Placeholder.png',
+        imageAlt: 'A woman doing a yoga pose',
       },
-      technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+      technologies: ['css','html', 'bootstrap', 'Ruby'],
       liveUrl: 'multipoststories.html',
       soureUrl: 'multipoststoriesSource.html',
     },
@@ -80,9 +80,45 @@ const projects = {
 
   //Generate HTML
   const popup = document.getElementsByClassName('popUpProject')[0];
+  const firstCardContainer = document.getElementsByClassName('container1')[0];
+
+function generateFirstCard(project) {
+  let htmlText = `<li class="card1">
+                    <div class="myWork">
+                      <h2>My Recent Works</h2>
+
+                      <hr class="firstline" />
+
+                      <img src="${project.image.imageUrl}" alt="${project.image.imageAlt}">
+                    </div>
+
+                    <div class="multiple">
+                      <h3>${project.title}</h3>
+
+                      <p>
+                        ${project.description}
+                      </p>
+
+                      <ul class="buttons">`;
+        for (let i = 0; i < project.technologies.length; i += 1 ){
+
+          htmlText += `<li>
+                      <button type="button" class="button">${project.technologies[i]}
+                      </button></li>`;
+        }
+          
+                    htmlText += `</ul>
+                    <br />
+
+                      <button data-modal-target="#modal" class="orange-button">See Project</button>
+                      </div>
+                  </li>`;
+return htmlText;
+}
 
   function generateModal(project) {
-    let htmlText = `<div class="modal" id="modal">
+    let htmlText = `<section class="popUpProject">
+                    <div class="modal" id="modal">
                       <div class="modal-header">
                        <div class="title">${project.title}</div>
                        <button data-close-button class="close-button">&times;</button>
@@ -113,16 +149,18 @@ const projects = {
                       </div>
                     </div>
                   </div>  
-                </div>`;
+                </div>
+                </section>`;
 
     return htmlText;
   }
 
   function insertHtml() {
-    popup.innerHTML += generateModal(projects.project1);
+    firstCardContainer.innerHTML += generateFirstCard(projects.project1);
+    firstCardContainer.innerHTML += generateModal(projects.project1);
   }
   
-  popup.onload = insertHtml();
+  firstCardContainer.onload = insertHtml();
 
 //open close modals
 const openModalBtns = document.querySelectorAll('[data-modal-target]');
