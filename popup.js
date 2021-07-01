@@ -1,22 +1,23 @@
-//Array object
+// Array object
+
 const projects = [
   {
-     title: 'Multi Post Stories',
-     description: `A daily selection of privately personalized reads; 
+    title: 'Multi Post Stories',
+    description: `A daily selection of privately personalized reads; 
      no accounts or sign-ups required. has been the industry's standard
       dummy text ever since the 1500s, when an unknown printer took a 
       standard dummy text.`,
-     image: {
-       imageUrl: 'images/Placeholder.png',
-       imageAlt: 'A woman doing a yoga pose',
-     },
-     technologies: ['css','html', 'bootstrap', 'Ruby'],
-     liveUrl: 'multipoststories.html',
-     soureUrl: 'multipoststoriesSource.html',
-   },
+    image: {
+      imageUrl: 'images/Placeholder.png',
+      imageAlt: 'A woman doing a yoga pose',
+    },
+    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+    liveUrl: 'multipoststories.html',
+    soureUrl: 'multipoststoriesSource.html',
+  },
   {
-     title: 'Keeping track of hundreds  of components website',
-     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    title: 'Keeping track of hundreds  of components website',
+    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
      unknown printer took a galley of type and scrambled it to make a type specimen book.
      It has survived not only five centuries, but also the leap into electronic typesetting,
@@ -25,17 +26,17 @@ const projects = [
      unknown printer took a galley of type and scrambled it to make a type specimen book.
      It has survived not only five centuries, but also the leap into electronic typesetting,
      remaining essent`,
-     image: {
-       imageUrl: 'images/Portfolio.png',
-       imageAlt: 'Image with number 10 at the center',
-     },
-     technologies: ['html', 'Bootstrap', 'Ruby on rails'],
-     liveUrl: 'multipoststories.html',
-     soureUrl: 'multipoststoriesSource.html',
-   },
+    image: {
+      imageUrl: 'images/Portfolio.png',
+      imageAlt: 'Image with number 10 at the center',
+    },
+    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+    liveUrl: 'multipoststories.html',
+    soureUrl: 'multipoststoriesSource.html',
+  },
   {
-     title: 'Project 3',
-     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    title: 'Project 3',
+    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
      unknown printer took a galley of type and scrambled it to make a type specimen book.
      It has survived not only five centuries, but also the leap into electronic typesetting,
@@ -44,17 +45,17 @@ const projects = [
      unknown printer took a galley of type and scrambled it to make a type specimen book.
      It has survived not only five centuries, but also the leap into electronic typesetting,
      remaining essent`,
-     image: {
-       imageUrl: 'images/Portfolio.png',
-       imageAlt: 'Image with number 10 at the center',
-     },
-     technologies: ['html', 'css', 'javaScript'],
-     liveUrl: 'TonicLive.html',
-     soureUrl: 'Tonic.html',
-   },
+    image: {
+      imageUrl: 'images/Portfolio.png',
+      imageAlt: 'Image with number 10 at the center',
+    },
+    technologies: ['html', 'css', 'javaScript'],
+    liveUrl: 'TonicLive.html',
+    soureUrl: 'Tonic.html',
+  },
   {
-     title: 'Project 4',
-     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    title: 'Project 4',
+    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
      unknown printer took a galley of type and scrambled it to make a type specimen book.
      It has survived not only five centuries, but also the leap into electronic typesetting,
@@ -63,35 +64,35 @@ const projects = [
      unknown printer took a galley of type and scrambled it to make a type specimen book.
      It has survived not only five centuries, but also the leap into electronic typesetting,
      remaining essent`,
-     image: {
-       imageUrl: 'images/Portfolio.png',
-       imageAlt: 'Image with number 10 at the center',
-     },
-     technologies: ['html', 'css', 'javaScript'],
-     liveUrl: 'mpStoriesLive.html',
-     soureUrl: 'mpStories.html',
-   },
+    image: {
+      imageUrl: 'images/Portfolio.png',
+      imageAlt: 'Image with number 10 at the center',
+    },
+    technologies: ['html', 'css', 'javaScript'],
+    liveUrl: 'mpStoriesLive.html',
+    soureUrl: 'mpStories.html',
+  },
   {
-     title:'Professional Art',
-     title2: 'Printing Data',
-     description: `A daily selection of privately personalized reads; no accounts
+    title: 'Professional Art',
+    title2: 'Printing Data',
+    description: `A daily selection of privately personalized reads; no accounts
                  or sign-ups required. has been the industry's standard`,
-     image: {
-       imageUrl: 'images/Portfolio.png',
-       imageAlt: 'Image with number 10 at the center',
-     },
-     technologies: ['html', 'css', 'javaScript'],
-     liveUrl: 'TonicLive.html',
-     soureUrl: 'Tonic.html',
-   }
- ];
+    image: {
+      imageUrl: 'images/Portfolio.png',
+      imageAlt: 'Image with number 10 at the center',
+    },
+    technologies: ['html', 'css', 'javaScript'],
+    liveUrl: 'TonicLive.html',
+    soureUrl: 'Tonic.html',
+  }
+];
 
 //Generate HTML
 const popup = document.getElementsByClassName('popUpProject')[0];
 const firstCardContainer = document.getElementsByClassName('container1')[0];
 
 function generateFirstCard(project) {
-let htmlText = `<li class="card1">
+  let htmlText = `<li class="card1">
                   <div class="myWork">
                     <h2>My Recent Works</h2>
 
@@ -108,14 +109,14 @@ let htmlText = `<li class="card1">
                     </p>
 
                     <ul class="buttons">`;
-      for (let i = 0; i < projects[0].technologies.length; i += 1 ){
+  for (let i = 0; i < projects[0].technologies.length; i += 1) {
 
-        htmlText += `<li>
+    htmlText += `<li>
                     <button type="button" class="button">${projects[0].technologies[i]}
                     </button></li>`;
-      }
-        
-                  htmlText += `</ul>
+  }
+
+  htmlText += `</ul>
                   <br />
 
                     <button data-modal-target="#modal" class="orange-button">See Project</button>
@@ -123,7 +124,7 @@ let htmlText = `<li class="card1">
                 </li>
                 </div>
                     </li>`;
-return htmlText;
+  return htmlText;
 }
 
 function generateModal(project) {
@@ -134,13 +135,13 @@ function generateModal(project) {
                     </div>
                     <div class="top-buttons">
                       <ul class="buttons">`;
-  
-    for (let i = 0; i < projects[1].technologies.length; i += 1 ){
+
+  for (let i = 0; i < projects[1].technologies.length; i += 1) {
 
     htmlText += `<li><button type="button" class="button"
               >${projects[1].technologies[i]}</button></li>`;
   }
-    htmlText += `</ul>
+  htmlText += `</ul>
                   </div>              
                   <div class="theBody">
                   <div class="popUp-img">
@@ -173,10 +174,10 @@ function generateSecondCard(project) {
                         <p>${projects[4].description}</p>
 
                         <ul class="buttons1">`;
-      for (let i = 0; i < projects[4].technologies.length; i += 1 ){
-             htmlText += `<li><button type="button" class="button1">${projects[4].technologies[i]}</button></li>`;
-      }
-             htmlText += `</ul>
+  for (let i = 0; i < projects[4].technologies.length; i += 1) {
+    htmlText += `<li><button type="button" class="button1">${projects[4].technologies[i]}</button></li>`;
+  }
+  htmlText += `</ul>
 
                         <button data-modal-target="#modal" type="button" class="orange-button orange-button3">
                           See Project
@@ -326,28 +327,28 @@ const closeModalBtns = document.querySelectorAll('[data-close-button]');
 const overlay = document.getElementById('overlay');
 
 function openModal(modal) {
-if (modal === null) return;
-modal.classList.add('active');
-overlay.classList.add('active');
+  if (modal === null) return;
+  modal.classList.add('active');
+  overlay.classList.add('active');
 }
 
 function closeModal(modal) {
-if (modal === null) return;
-modal.classList.remove('active');
-overlay.classList.remove('active');
+  if (modal === null) return;
+  modal.classList.remove('active');
+  overlay.classList.remove('active');
 }
 
 openModalBtns.forEach(openBtn => {
-openBtn.addEventListener('click', () => {
-  const currentModal = document.querySelector(openBtn.dataset.modalTarget);
-  openModal(currentModal);
-});
+  openBtn.addEventListener('click', () => {
+    const currentModal = document.querySelector(openBtn.dataset.modalTarget);
+    openModal(currentModal);
+  });
 });
 
 closeModalBtns.forEach(closeBtn => {
-closeBtn.addEventListener('click', () => {
-  const currentModal = closeBtn.closest('.modal');
-  closeModal(currentModal);
-});
+  closeBtn.addEventListener('click', () => {
+    const currentModal = closeBtn.closest('.modal');
+    closeModal(currentModal);
+  });
 });
 
