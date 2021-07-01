@@ -1,5 +1,3 @@
-//code for pop up menu
-
 const nav = document.querySelector('nav');
 const navList = document.querySelector('.nav-bar-list2');
 const menuBtn = document.querySelector('.menu');
@@ -34,6 +32,3 @@ function menu() {
 }
 
 menu();
-
-
-
