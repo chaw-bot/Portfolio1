@@ -1,4 +1,4 @@
-// Array object
+//Arrayoobject
 
 const projects = [
   {
@@ -84,14 +84,13 @@ const projects = [
     technologies: ['html', 'css', 'javaScript'],
     liveUrl: 'TonicLive.html',
     soureUrl: 'Tonic.html',
-  }
+  },
 ];
 
-//Generate HTML
-const popup = document.getElementsByClassName('popUpProject')[0];
+//GenerateHTML
 const firstCardContainer = document.getElementsByClassName('container1')[0];
 
-function generateFirstCard(project) {
+function generateFirstCard() {
   let htmlText = `<li class="card1">
                   <div class="myWork">
                     <h2>My Recent Works</h2>
@@ -110,7 +109,6 @@ function generateFirstCard(project) {
 
                     <ul class="buttons">`;
   for (let i = 0; i < projects[0].technologies.length; i += 1) {
-
     htmlText += `<li>
                     <button type="button" class="button">${projects[0].technologies[i]}
                     </button></li>`;
@@ -127,7 +125,7 @@ function generateFirstCard(project) {
   return htmlText;
 }
 
-function generateModal(project) {
+function generateModal() {
   let htmlText = `<div class="modal" id="modal">
                     <div class="modal-header">
                      <div class="title">${projects[0].title}</div>
@@ -137,7 +135,6 @@ function generateModal(project) {
                       <ul class="buttons">`;
 
   for (let i = 0; i < projects[1].technologies.length; i += 1) {
-
     htmlText += `<li><button type="button" class="button"
               >${projects[1].technologies[i]}</button></li>`;
   }
@@ -165,7 +162,7 @@ function generateModal(project) {
   return htmlText;
 }
 
-function generateSecondCard(project) {
+function generateSecondCard() {
   let htmlText = `<li>
                     <ul class="card2container">
                       <li class="card2 first">
@@ -310,9 +307,6 @@ function generateSecondCard(project) {
   return htmlText;
 }
 
-
-
-
 function insertHtml() {
   firstCardContainer.innerHTML += generateFirstCard(projects.project1);
   firstCardContainer.innerHTML += generateModal(projects.project1);
@@ -321,7 +315,7 @@ function insertHtml() {
 
 firstCardContainer.onload = insertHtml();
 
-//open close modals
+//openCloseModals
 const openModalBtns = document.querySelectorAll('[data-modal-target]');
 const closeModalBtns = document.querySelectorAll('[data-close-button]');
 const overlay = document.getElementById('overlay');
@@ -351,4 +345,3 @@ closeModalBtns.forEach(closeBtn => {
     closeModal(currentModal);
   });
 });
-
