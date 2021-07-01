@@ -1,4 +1,3 @@
-//  Arrayoobject
 const projects = [
   {
     title: 'Multi Post Stories',
