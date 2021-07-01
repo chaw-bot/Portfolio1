@@ -290,6 +290,20 @@ ul {
   padding: 10px 0 10px 0;
 }
 
+.orange-button {
+  background-color: #ff6b00;
+  border: none;
+  padding: 12px;
+  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 10px;
+  filter: contrast(1.8);
+}
+
 .bt-buttons {
   display: flex;
   justify-content: space-between;
@@ -307,7 +321,7 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(121, 65, 65, 0.5);
   pointer-events: none;
 }
 
@@ -315,24 +329,10 @@ ul {
   opacity: 1;
   pointer-events: all;
 }
-/* experiment */
 
+/* experiment */
 .button:hover {
   background-color: #8993a4;
-}
-
-.orange-button {
-  background-color: #ff6b00;
-  border: none;
-  padding: 12px;
-  font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
-  color: #fff;
-  margin-top: 10px;
-  filter: contrast(1.8);
 }
 
 .orange-button:hover {
@@ -788,9 +788,9 @@ legend {
 
   .modal-body {
     display: flex;
-    flex-direction: column;  
-    padding-right: 20px; 
-    font-family: Inter;
+    flex-direction: column;
+    padding-right: 20px;
+    font-family: Inter, BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -804,19 +804,19 @@ legend {
     justify-content: space-between;
     padding-bottom: 10px;
   }
-  
+
   .bt-buttons {
     display: flex;
     gap: 10px;
     justify-content: start;
     align-items: flex-start;
   }
-  
+
   .bt-buttons .orange-button {
     width: 30%;
   }
-  /* experiment */
 
+  /* experiment */
   .card {
     display: flex;
     flex-direction: row-reverse;
