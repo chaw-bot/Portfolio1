@@ -1,4 +1,4 @@
-//Arrayoobject
+// Arrayoobject
 
 const projects = [
   {
@@ -35,7 +35,7 @@ const projects = [
     soureUrl: 'multipoststoriesSource.html',
   },
   {
-    title: 'Project 3',
+title: 'Project 3',
     description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
      unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -87,7 +87,7 @@ const projects = [
   },
 ];
 
-//GenerateHTML
+// GenerateHTML
 const firstCardContainer = document.getElementsByClassName('container1')[0];
 
 function generateFirstCard() {
@@ -315,7 +315,7 @@ function insertHtml() {
 
 firstCardContainer.onload = insertHtml();
 
-//openCloseModals
+// openCloseModals
 const openModalBtns = document.querySelectorAll('[data-modal-target]');
 const closeModalBtns = document.querySelectorAll('[data-close-button]');
 const overlay = document.getElementById('overlay');
@@ -332,14 +332,14 @@ function closeModal(modal) {
   overlay.classList.remove('active');
 }
 
-openModalBtns.forEach(openBtn => {
+openModalBtns.forEach((openBtn) => {
   openBtn.addEventListener('click', () => {
     const currentModal = document.querySelector(openBtn.dataset.modalTarget);
     openModal(currentModal);
   });
 });
 
-closeModalBtns.forEach(closeBtn => {
+closeModalBtns.forEach((closeBtn) => {
   closeBtn.addEventListener('click', () => {
     const currentModal = closeBtn.closest('.modal');
     closeModal(currentModal);
