@@ -65,17 +65,18 @@ nav .menu {
   padding: 0 24px;
 }
 
+
 /* form */
 .alert_msg {
   display: none;
-  background-color: #aa161d;
-  color: #fff;
+  background-color: #c7ca23;
+  color: #000;
   padding: 2px 4px;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
 
-.alert_msg.active {
+.alert_msg .active {
   display: block;
 }  
 
@@ -937,9 +938,9 @@ legend {
     display: none;
   }
 
-  .orange-button2 {
+  /* .orange-button2 {
     display: none;
-  }
+  } */
 
   .second {
     background-image: url(images/second.png);
@@ -1100,3 +1101,4 @@ legend {
     }
   }
 }
+
