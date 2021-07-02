@@ -68,16 +68,12 @@ nav .menu {
 /* form */
 .alert_msg {
   display: none;
-  float: right;
-  background-color: #aa161d;
+  background-color: red;
   color: #fff;
   padding: 2px 4px;
+  padding-top: 5px;
   border-radius: 4px;
 }
-
-/* .alert_msg.active {
-  display: block;
-}   */
 
 .align-end {
   align-self: flex-end;
