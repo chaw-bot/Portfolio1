@@ -172,11 +172,9 @@
             </li>
 
             <li>
-              
               <label for="email">Email:</label>
               <!-- only email addresses are accepted and it is a required field -->
-              <input type="email" id="email" name="email address" placeholder="Email address"
-                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
+              <input type="email" id="email" name="email address" placeholder="Email address" required />
             </li>
 
             <li>
@@ -188,6 +186,7 @@
               <button type="submit" class="orange-button orange-button4">
                 Get in touch
               </button>
+              <span class="alert_msg"></span>
             </li>
           </ul>
         </fieldset>
@@ -221,5 +220,6 @@
   <div id="overlay"></div>
   <script src="menu.js"></script>
   <script src="popup.js"></script>
+  <script src="validation.js"></script>
 </body>
 </html>
