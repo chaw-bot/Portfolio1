@@ -31,31 +31,31 @@ const projects = [
     technologies: ['html', 'Bootstrap', 'Ruby on rails'],
     liveUrl: 'multipoststories.html',
     soureUrl: 'multipoststoriesSource.html',
-},
-{
-  title: 'Data Dashboard',
-  description: `A daily selection of privately personalized reads;
-   no accounts or sign-ups required. has been the industry's standard`,
-  image: {
-    imageUrl: 'images/second.png',
-    imageAlt: 'background1',
   },
-  technologies: ['html', 'bootstrap', 'Ruby'],
-  liveUrl: 'TonicLive.html',
-  soureUrl: 'Tonic.html',
-},
-{
-  title: 'Website Portfolio',
-  description: `A daily selection of privately personalized reads;
+  {
+    title: 'Data Dashboard',
+    description: `A daily selection of privately personalized reads;
    no accounts or sign-ups required. has been the industry's standard`,
-  image: {
-    imageUrl: 'images/third.png',
-    imageAlt: 'background1',
+    image: {
+      imageUrl: 'images/second.png',
+      imageAlt: 'background1',
+    },
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    liveUrl: 'TonicLive.html',
+    soureUrl: 'Tonic.html',
   },
-  technologies: ['html', 'bootstrap', 'Ruby'],
-  liveUrl: 'TonicLive.html',
-  soureUrl: 'Tonic.html',
-},
+  {
+    title: 'Website Portfolio',
+    description: `A daily selection of privately personalized reads;
+   no accounts or sign-ups required. has been the industry's standard`,
+    image: {
+      imageUrl: 'images/third.png',
+      imageAlt: 'background1',
+    },
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    liveUrl: 'TonicLive.html',
+    soureUrl: 'Tonic.html',
+  },
   {
     title: 'Professional Art',
     title2: 'Printing Data',
@@ -80,7 +80,7 @@ const projects = [
     technologies: ['html', 'bootstrap', 'Ruby'],
     liveUrl: 'TonicLive.html',
     soureUrl: 'Tonic.html',
-},
+  },
 ];
 
 // GenerateHTML
