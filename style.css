@@ -65,7 +65,6 @@ nav .menu {
   padding: 0 24px;
 }
 
-
 /* form */
 .alert_msg {
   display: none;
@@ -78,7 +77,7 @@ nav .menu {
 
 .alert_msg .active {
   display: block;
-}  
+}
 
 .align-end {
   align-self: flex-end;
@@ -1101,4 +1100,3 @@ legend {
     }
   }
 }
-
