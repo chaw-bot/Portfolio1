@@ -196,6 +196,11 @@ img {
   margin-top: 50px;
 }
 
+.myWork img,
+.popUp-img {
+  width: 95%;
+}
+
 .multiple {
   display: flex;
   flex-direction: column;

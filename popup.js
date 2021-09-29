@@ -1,21 +1,20 @@
-const projects = [
-  {
-    title: 'Multi Post Stories',
-    description: `A daily selection of privately personalized reads; 
+const projects = [{
+  title: 'Awesome Books',
+  description: `A daily selection of privately personalized reads; 
      no accounts or sign-ups required. has been the industry's standard
       dummy text ever since the 1500s, when an unknown printer took a 
       standard dummy text.`,
-    image: {
-      imageUrl: 'images/Placeholder.png',
-      imageAlt: 'A woman doing a yoga pose',
-    },
-    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
-    liveUrl: 'multipoststories.html',
-    soureUrl: 'multipoststoriesSource.html',
+  image: {
+    imageUrl: 'images/awesome2.png',
+    imageAlt: 'A list of books added by the user',
   },
-  {
-    title: 'Keeping track',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+  liveUrl: 'https://alexander16108.github.io/Chaws-Awesome-B00k-Store/',
+  soureUrl: 'https://github.com/alexander16108/Chaws-Awesome-B00k-Store',
+},
+{
+  title: 'Keeping track',
+  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
      unknown printer took a galley of type and scrambled it to make a type specimen book.
      It has survived not only five centuries, but also the leap into electronic typesetting,
@@ -24,63 +23,63 @@ const projects = [
      unknown printer took a galley of type and scrambled it to make a type specimen book.
      It has survived not only five centuries, but also the leap into electronic typesetting,
      remaining essent`,
-    image: {
-      imageUrl: 'images/Portfolio.png',
-      imageAlt: 'Image with number 10 at the center',
-    },
-    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
-    liveUrl: 'multipoststories.html',
-    soureUrl: 'multipoststoriesSource.html',
+  image: {
+    imageUrl: 'images/awesome1.png',
+    imageAlt: 'The add book page',
   },
-  {
-    title: 'Data Dashboard',
-    description: `A daily selection of privately personalized reads;
+  technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+  liveUrl: 'https://alexander16108.github.io/Chaws-Awesome-B00k-Store/',
+  soureUrl: 'https://github.com/alexander16108/Chaws-Awesome-B00k-Store',
+},
+{
+  title: 'Data Dashboard',
+  description: `A daily selection of privately personalized reads;
    no accounts or sign-ups required. has been the industry's standard`,
-    image: {
-      imageUrl: 'images/second.png',
-      imageAlt: 'background1',
-    },
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    liveUrl: 'TonicLive.html',
-    soureUrl: 'Tonic.html',
+  image: {
+    imageUrl: 'images/second.png',
+    imageAlt: 'background1',
   },
-  {
-    title: 'Website Portfolio',
-    description: `A daily selection of privately personalized reads;
+  technologies: ['html', 'bootstrap', 'Ruby'],
+  liveUrl: 'TonicLive.html',
+  soureUrl: 'Tonic.html',
+},
+{
+  title: 'Website Portfolio',
+  description: `A daily selection of privately personalized reads;
    no accounts or sign-ups required. has been the industry's standard`,
-    image: {
-      imageUrl: 'images/third.png',
-      imageAlt: 'background1',
-    },
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    liveUrl: 'TonicLive.html',
-    soureUrl: 'Tonic.html',
+  image: {
+    imageUrl: 'images/third.png',
+    imageAlt: 'background1',
   },
-  {
-    title: 'Professional Art',
-    title2: 'Printing Data',
-    description: `A daily selection of privately personalized reads; no accounts
+  technologies: ['html', 'bootstrap', 'Ruby'],
+  liveUrl: 'TonicLive.html',
+  soureUrl: 'Tonic.html',
+},
+{
+  title: 'Professional Art',
+  title2: 'Printing Data',
+  description: `A daily selection of privately personalized reads; no accounts
                  or sign-ups required. has been the industry's standard`,
-    image: {
-      imageUrl: 'images/Portfolio.png',
-      imageAlt: 'Image with number 10 at the center',
-    },
-    technologies: ['html', 'css', 'javaScript'],
-    liveUrl: 'TonicLive.html',
-    soureUrl: 'Tonic.html',
+  image: {
+    imageUrl: 'images/Portfolio.png',
+    imageAlt: 'Image with number 10 at the center',
   },
-  {
-    title: 'Website Portfolio',
-    description: `A daily selection of privately personalized reads;
+  technologies: ['html', 'css', 'javaScript'],
+  liveUrl: 'TonicLive.html',
+  soureUrl: 'Tonic.html',
+},
+{
+  title: 'Website Portfolio',
+  description: `A daily selection of privately personalized reads;
      no accounts or sign-ups required. has been the industry's standard`,
-    image: {
-      imageUrl: 'images/third.png',
-      imageAlt: 'background1',
-    },
-    technologies: ['html', 'bootstrap', 'Ruby'],
-    liveUrl: 'TonicLive.html',
-    soureUrl: 'Tonic.html',
+  image: {
+    imageUrl: 'images/third.png',
+    imageAlt: 'background1',
   },
+  technologies: ['html', 'bootstrap', 'Ruby'],
+  liveUrl: 'TonicLive.html',
+  soureUrl: 'Tonic.html',
+},
 ];
 
 // GenerateHTML
@@ -138,7 +137,7 @@ function generateModal() {
                   </div>              
                   <div class="theBody">
                   <div class="popUp-img">
-                    <img src="${projects[0].image.imageUrl}" alt="${projects[0].image.imageAlt}">
+                    <img src="${projects[1].image.imageUrl}" alt="${projects[1].image.imageAlt}">
                   </div>
   
                   <div class="body-button">
@@ -147,8 +146,8 @@ function generateModal() {
                     </div>
   
                     <div class="bt-buttons">
-                      <a href="${projects[0].liveUrl}" class="orange-button">See Live       <i class="fa fa-external-link"></i></a>
-                      <a href="${projects[0].sourceUrl}" class="orange-button">See Source   <i class="fa fa-github"></i></a>
+                      <a href="${projects[1].liveUrl}" class="orange-button">See Live       <i class="fa fa-external-link"></i></a>
+                      <a href="${projects[1].sourceUrl}" class="orange-button">See Source   <i class="fa fa-github"></i></a>
                     </div>
                   </div>
                 </div>  
