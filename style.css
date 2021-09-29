@@ -196,7 +196,8 @@ img {
   margin-top: 50px;
 }
 
-.myWork img, .popUp-img {
+.myWork img,
+.popUp-img {
   width: 95%;
 }
 
