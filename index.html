@@ -1,225 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b7a7cffe76.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-EL8KFV4HG8"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/b7a7cffe76.js" crossorigin="anonymous"></script>
-  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EL8KFV4HG8"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      window.dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag("config", "G-EL8KFV4HG8");
-  </script>
-</head>
+      gtag("config", "G-EL8KFV4HG8");
+    </script>
+  </head>
 
-<body>
-  <main>
-    <section class="container">
-      <header class="toolbar">
-        <a href="#">
-          <h3>Chaw</h3>
-        </a>
+  <body>
+    <main>
+      <section class="container">
+        <header class="toolbar">
+          <a href="#">
+            <h3>Chaw</h3>
+          </a>
 
-        <nav>
-          <a class="menu" href="#" aria-label="bars" onclick="menu();"><i class="fa fa-bars"></i></a>
-          <ul class="nav-bar-list nav-bar-list2">
-            <li class="border-bottom"><a onclick="closeMenu();" href="#Portfolio">Portfolio</a></li>
-            <li class="border-bottom"><a onclick="closeMenu();" href="#About">About</a></li>
-            <li class="border-bottom"><a onclick="closeMenu();" href="#Contact">Contact</a></li>
-            <li><a href="#" aria-label="envelope"><i class="fa fa-envelope"></i></a></li>
+          <nav>
+            <a class="menu" href="#" aria-label="bars" onclick="menu();"
+              ><i class="fa fa-bars"></i
+            ></a>
+            <ul class="nav-bar-list nav-bar-list2">
+              <li class="border-bottom">
+                <a onclick="closeMenu();" href="#Portfolio">Portfolio</a>
+              </li>
+              <li class="border-bottom">
+                <a onclick="closeMenu();" href="#About">About</a>
+              </li>
+              <li class="border-bottom">
+                <a onclick="closeMenu();" href="#Contact">Contact</a>
+              </li>
+              <li>
+                <a href="#" aria-label="envelope"
+                  ><i class="fa fa-envelope"></i
+                ></a>
+              </li>
+            </ul>
+
+            <ul class="nav-bar-list">
+              <li class="border-bottom"><a href="#Portfolio">Portfolio</a></li>
+              <li class="border-bottom"><a href="#About">About</a></li>
+              <li class="border-bottom"><a href="#Contact">Contact</a></li>
+              <li>
+                <a href="#" aria-label="envelope"
+                  ><i class="fa fa-envelope"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <section class="card">
+          <article>
+            <h1>Hey There.<br />I'm Chaw</h1>
+
+            <h2>I am a Software Developer</h2>
+
+            <p>
+              I can help you build a product, feature or website. Look through
+              some of my work and experience! If you like what you see and have
+              a project you need coded, don’t hestiate to contact me.
+            </p>
+          </article>
+
+          <ul class="social">
+            <li>
+              <a
+                target="_blank"
+                href="https://github.com/chaw-bot"
+                rel="noopener noreferrer"
+                aria-label="github"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/chawanzi-ng-uni-449328212/"
+                rel="noopener noreferrer"
+                aria-label="linkedin"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a target="_blank" href="#" aria-label="angellist"
+                ><i
+                  class="fa fa-angellist clr-secondary"
+                  rel="noopener noreferrer"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://twitter.com/chaw36422087"
+                rel="noopener noreferrer"
+                aria-label="twitter"
+                ><i class="fa fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="#"
+                rel="noopener noreferrer"
+                aria-label="medium"
+                ><i class="fa fa-medium"></i
+              ></a>
+            </li>
           </ul>
+        </section>
+      </section>
 
-          <ul class="nav-bar-list">
-            <li class="border-bottom"><a onclick="closeMenu();" href="#Portfolio">Portfolio</a></li>
-            <li class="border-bottom"><a onclick="closeMenu();" href="#About">About</a></li>
-            <li class="border-bottom"><a onclick="closeMenu();" href="#Contact">Contact</a></li>
-            <li><a href="#" aria-label="envelope"><i class="fa fa-envelope"></i></a></li>
-          </ul>
-        </nav>
-      </header>
+      <section id="Portfolio">
+        <ul class="container1"></ul>
+      </section>
 
-      <section class="card">
-        <article>
-          <h1>Hey There.<br />I'm Chaw</h1>
-
-          <h2>I am a Software Developer</h2>
+      <section class="container2">
+        <section class="aboutMe" id="About">
+          <h1>About me</h1>
 
           <p>
-            I can help you build a product, feature or website. Look through
-            some of my work and experience! If you like what you see and have
-            a project you need coded, don’t hestiate to contact me.
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
           </p>
-        </article>
 
-        <ul class="social">
-          <li>
-            <a target="_blank" href="https://github.com/chaw-bot" rel="noopener noreferrer" aria-label="github"><i
-              class="fa fa-github"></i></a>
-          </li>
-          <li>
-            <a target="_blank" href="https://www.linkedin.com/in/chawanzi-ng-uni-449328212/" rel="noopener noreferrer"
-              aria-label="linkedin"><i class="fa fa-linkedin"></i></a>
-          </li>
-          <li>
-            <a target="_blank" href="#" aria-label="angellist"><i class="fa fa-angellist clr-secondary"
-                rel="noopener noreferrer"></i></a>
-          </li>
-          <li>
-            <a target="_blank" href="https://twitter.com/chaw36422087" rel="noopener noreferrer" aria-label="twitter"><i
-                class="fa fa-twitter"></i></a>
-          </li>
-          <li>
-            <a target="_blank" href="#" rel="noopener noreferrer" aria-label="medium"><i class="fa fa-medium"></i></a>
-          </li>
-        </ul>
-      </section>
-    </section>
+          <div>
+            <button type="submit" class="orange-button orange-button3">
+              Get My Resume
+            </button>
+          </div>
+        </section>
 
-    <section id="Portfolio">
-      <ul class="container1">
-      </ul>
-    </section>
+        <hr class="line" />
 
-    <section class="container2">
-      <section class="aboutMe" id="About">
-        <h1>About me</h1>
+        <section class="categories">
+          <ul class="cat">
+            <li class="language">
+              <h2>Languages</h2>
 
-        <p>
-          Hello I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If
-          you like what you see and have a project you need coded, don’t
-          hestiate to contact me.
-        </p>
-
-        <div>
-          <button type="submit" class="orange-button orange-button3">
-            Get My Resume
-          </button>
-        </div>
-      </section>
-
-      <hr class="line" />
-
-      <section class="categories">
-        <ul class="cat">
-          <li class="language">
-            <h2>Languages</h2>
-
-            <ul class="list">
-              <li class="lang">Javascript</li>
-              <li class="lang">Ruby</li>
-              <li class="lang">Html</li>
-              <li class="lang">Css</li>
-            </ul>
-          </li>
-
-          <li class="frameworks">
-            <h2>Frameworks</h2>
-
-            <ul class="list1 list">
-              <li class="frame">Bootstrap</li>
-              <li class="frame">Ruby on Rails</li>
-              <li class="frame">RSPec</li>
-              <li class="frame">CapyBara</li>
-              <li class="frame">Selenium</li>
-            </ul>
-          </li>
-
-          <li class="skills">
-            <h2>Skills</h2>
-
-            <ul class="list2 list skills">
-              <li class="skill">CodeKit</li>
-              <li class="skill">GitHub</li>
-              <li class="skill">Codepen</li>
-              <li class="skill">Gitlab</li>
-              <li class="skill">Terminal</li>
-            </ul>
-          </li>
-        </ul>
-      </section>
-    </section>
-  </main>
-
-  <footer>
-    <section class="form" id="Contact">
-      <div class="remarks">
-        <h3>
-          I'm always interested in hearing about new projects, so if you'd
-          like to chat please get in touch.
-        </h3>
-      </div>
-
-      <form id = "form" action="https://formspree.io/f/xjvjregp" method="post">
-        <fieldset>
-          <legend>Get in touch</legend>
-          <ul>
-            <li>
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="full name" placeholder="Full name" maxlength="30" required />
+              <ul class="list">
+                <li class="lang">Javascript</li>
+                <li class="lang">Ruby</li>
+                <li class="lang">Html</li>
+                <li class="lang">Css</li>
+              </ul>
             </li>
 
-            <li>
-              <label for="email">Email:</label>
-              <!-- only email addresses are accepted and it is a required field -->
-              <input type="email" id="email" name="email address" placeholder="Email address" required />
+            <li class="frameworks">
+              <h2>Frameworks</h2>
+
+              <ul class="list1 list">
+                <li class="frame">Bootstrap</li>
+                <li class="frame">Ruby on Rails</li>
+                <li class="frame">RSPec</li>
+                <li class="frame">CapyBara</li>
+                <li class="frame">Selenium</li>
+              </ul>
             </li>
 
-            <li>
-              <label for="msg">Message:</label>
-              <textarea id="msg" name="text" placeholder="Enter text here" maxlength="500" required></textarea>
-            </li>
+            <li class="skills">
+              <h2>Skills</h2>
 
-            <li>
-              <button type="submit" class="orange-button orange-button4">
-                Get in touch
-              </button>
-              <span class="alert_msg"></span>
+              <ul class="list2 list skills">
+                <li class="skill">CodeKit</li>
+                <li class="skill">GitHub</li>
+                <li class="skill">Codepen</li>
+                <li class="skill">Gitlab</li>
+                <li class="skill">Terminal</li>
+              </ul>
             </li>
           </ul>
-        </fieldset>
-      </form>
-    </section>
+        </section>
+      </section>
+    </main>
 
-    <hr class="divide" />
+    <footer>
+      <section class="form" id="Contact">
+        <div class="remarks">
+          <h3>
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </h3>
+        </div>
 
-    <section class="bottomNav">
-      <ul class="socialfooter">
-        <li>
-          <a href="#" aria-label="github"><i class="fa fa-2x fa-github"></i></a>
-        </li>
-        <li>
-          <a href="#" aria-label="linkedin"><i class="fa fa-2x fa-linkedin"></i></a>
-        </li>
-        <li>
-          <a href="#" aria-label="angellist"><i class="fa fa-2x fa-angellist clr-secondary"></i></a>
-        </li>
-        <li>
-          <a href="#" aria-label="twitter"><i class="fa fa-2x fa-twitter"></i></a>
-        </li>
-        <li>
-          <a href="#" aria-label="medium"><i class="fa fa-2x fa-medium"></i></a>
-        </li>
-      </ul>
-    </section>
+        <form id="form" action="https://formspree.io/f/xjvjregp" method="post">
+          <fieldset>
+            <legend>Get in touch</legend>
+            <ul>
+              <li>
+                <label for="name">Name:</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="full name"
+                  placeholder="Full name"
+                  maxlength="30"
+                  required
+                />
+              </li>
 
-    <hr class="last" />
-  </footer>
-  <div id="overlay"></div>
-  <script src="menu.js"></script>
-  <script src="popup.js"></script>
-  <script src="validation.js"></script>
-</body>
+              <li>
+                <label for="email">Email:</label>
+                <!-- only email addresses are accepted and it is a required field -->
+                <input
+                  type="email"
+                  id="email"
+                  name="email address"
+                  placeholder="Email address"
+                  required
+                />
+              </li>
+
+              <li>
+                <label for="msg">Message:</label>
+                <textarea
+                  id="msg"
+                  name="text"
+                  placeholder="Enter text here"
+                  maxlength="500"
+                  required
+                ></textarea>
+              </li>
+
+              <li>
+                <button type="submit" class="orange-button orange-button4">
+                  Get in touch
+                </button>
+                <span class="alert_msg"></span>
+              </li>
+            </ul>
+          </fieldset>
+        </form>
+      </section>
+
+      <hr class="divide" />
+
+      <section class="bottomNav">
+        <ul class="socialfooter">
+          <li>
+            <a href="#" aria-label="github"
+              ><i class="fa fa-2x fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" aria-label="linkedin"
+              ><i class="fa fa-2x fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" aria-label="angellist"
+              ><i class="fa fa-2x fa-angellist clr-secondary"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" aria-label="twitter"
+              ><i class="fa fa-2x fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" aria-label="medium"
+              ><i class="fa fa-2x fa-medium"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+
+      <hr class="last" />
+    </footer>
+    <div id="overlay"></div>
+    <script src="menu.js"></script>
+    <script src="popup.js"></script>
+    <script src="validation.js"></script>
+  </body>
 </html>
