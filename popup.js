@@ -1,85 +1,98 @@
-const projects = [{
-  title: 'Awesome Books',
-  description: `A daily selection of privately personalized reads; 
-     no accounts or sign-ups required. has been the industry's standard
-      dummy text ever since the 1500s, when an unknown printer took a 
-      standard dummy text.`,
-  image: {
-    imageUrl: 'images/awesome2.png',
-    imageAlt: 'A list of books added by the user',
+const projects = [
+  {
+    title: 'Corona Worldometer',
+    description: `This project is a mobile web application used to check a list of COVID-19 metrics
+    worldwide. It keeps track of live corona virus statistics from countries around the world.`,
+    image: {
+      imageUrl: 'images/CoviData1.png',
+      imageAlt: 'Home page with a list of continents.',
+    },
+    technologies: ['ReactJS', 'Redux', 'CSS', 'JSX'],
+    liveUrl: 'https://covidataworldwide.netlify.app/',
+    soureUrl: 'https://github.com/chaw-bot/react-capstone-project',
   },
-  technologies: ['css', 'html', 'bootstrap', 'Ruby'],
-  liveUrl: 'https://alexander16108.github.io/Chaws-Awesome-B00k-Store/',
-  soureUrl: 'https://github.com/alexander16108/Chaws-Awesome-B00k-Store',
-},
-{
-  title: 'Keeping track',
-  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-     unknown printer took a galley of type and scrambled it to make a type specimen book.
-     It has survived not only five centuries, but also the leap into electronic typesetting,
-     remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-     unknown printer took a galley of type and scrambled it to make a type specimen book.
-     It has survived not only five centuries, but also the leap into electronic typesetting,
-     remaining essent`,
-  image: {
-    imageUrl: 'images/awesome1.png',
-    imageAlt: 'The add book page',
+  {
+    title: 'Corona Worldometer',
+    description: `This project is a mobile web application used to check a list of COVID-19 metrics
+    worldwide. It keeps track of live corona virus statistics from countries around the world.`,
+    image: {
+      imageUrl: 'images/CoviData1.png',
+      imageAlt: 'Home page with a list of continents.',
+    },
+    technologies: ['ReactJS', 'Redux', 'CSS', 'JSX'],
+    liveUrl: 'https://covidataworldwide.netlify.app/',
+    soureUrl: 'https://github.com/chaw-bot/react-capstone-project',
   },
-  technologies: ['html', 'Bootstrap', 'Ruby on rails'],
-  liveUrl: 'https://alexander16108.github.io/Chaws-Awesome-B00k-Store/',
-  soureUrl: 'https://github.com/alexander16108/Chaws-Awesome-B00k-Store',
-},
-{
-  title: 'Data Dashboard',
-  description: `A daily selection of privately personalized reads;
-   no accounts or sign-ups required. has been the industry's standard`,
-  image: {
-    imageUrl: 'images/second.png',
-    imageAlt: 'background1',
+  {
+    title: 'Leader Board',
+    description: `The leaderboard website displays different scores that have been submitted.
+    It also allows you to submit your score. All data is preserved thanks to the
+    external Leaderboard API service.`,
+    image: {
+      imageUrl: 'images/leaderboard.png',
+      imageAlt: 'App home page',
+    },
+    technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+    liveUrl: 'https://chaw-bot.github.io/Leaderboard/dist/',
+    soureUrl: 'https://github.com/chaw-bot/Leaderboard',
   },
-  technologies: ['html', 'bootstrap', 'Ruby'],
-  liveUrl: 'TonicLive.html',
-  soureUrl: 'Tonic.html',
-},
-{
-  title: 'Website Portfolio',
-  description: `A daily selection of privately personalized reads;
-   no accounts or sign-ups required. has been the industry's standard`,
-  image: {
-    imageUrl: 'images/third.png',
-    imageAlt: 'background1',
+  {
+    title: 'TIp Calculator - Frontend Mentor',
+    description: `This is a solution to the Tip calculator app challenge on Frontend Mentor.
+    Users should be able to:
+      - View the optimal layout for the app depending on their device's screen size
+      - See hover states for all interactive elements on the page
+      - Calculate the correct tip and total cost of the bill per person`,
+    image: {
+      imageUrl: 'images/tipcalculator.png',
+      imageAlt: 'background1',
+    },
+    technologies: ['JavaScript', 'HTML', 'CSS', 'Mobile-first workflow'],
+    liveUrl: 'https://tip-calculator-chaw-bot.vercel.app',
+    soureUrl: 'https://github.com/chaw-bot/TipCalculator',
   },
-  technologies: ['html', 'bootstrap', 'Ruby'],
-  liveUrl: 'TonicLive.html',
-  soureUrl: 'Tonic.html',
-},
-{
-  title: 'Professional Art',
-  title2: 'Printing Data',
-  description: `A daily selection of privately personalized reads; no accounts
-                 or sign-ups required. has been the industry's standard`,
-  image: {
-    imageUrl: 'images/Portfolio.png',
-    imageAlt: 'Image with number 10 at the center',
+  {
+    title: 'My Catalog',
+    description: `This project is a console app that will help you keep a record
+    of different types of things you own: books, music albums and games.
+    Everything will be based on the UML class diagram attached below.
+    The data will be stored in JSON files. It also contains a schema.sql file
+    with tables that are analogical to the structure of the classes in the app`,
+    image: {
+      imageUrl: 'images/catalog.png',
+      imageAlt: 'homepage',
+    },
+    technologies: ['Ruby', 'PostfreSQL', 'RSpec', 'Rainbow gem'],
+    liveUrl: 'TonicLive.html',
+    soureUrl: 'https://github.com/chaw-bot/Ruby-Capstone-Project',
   },
-  technologies: ['html', 'css', 'javaScript'],
-  liveUrl: 'TonicLive.html',
-  soureUrl: 'Tonic.html',
-},
-{
-  title: 'Website Portfolio',
-  description: `A daily selection of privately personalized reads;
-     no accounts or sign-ups required. has been the industry's standard`,
-  image: {
-    imageUrl: 'images/third.png',
-    imageAlt: 'background1',
+  {
+    title: 'Space Travelers Hub',
+    title2: 'Printing Data',
+    description: `This web application is built for a company that provides
+    commercial and scientific space travel services. The application
+    allows users to book rockets and join selected space missions.`,
+    image: {
+      imageUrl: 'images/space.png',
+      imageAlt: 'Homepage with rockets',
+    },
+    technologies: ['ReactJS', 'Redux', 'JSX', 'React Router', 'CSS'],
+    liveUrl: 'https://duls-travelers-hub.herokuapp.com/',
+    soureUrl: 'https://github.com/wuyepabdul/space-travelers-hub',
   },
-  technologies: ['html', 'bootstrap', 'Ruby'],
-  liveUrl: 'TonicLive.html',
-  soureUrl: 'Tonic.html',
-},
+  {
+    title: 'Book Store',
+    description: `A lightweight JavaScript project that allows users to interact with a fully client-based interface.
+    Users can add books that they own to easily keep track of their list of books. The added books can be removed
+    from the list by using the "Remove Book" button.`,
+    image: {
+      imageUrl: 'images/books.png',
+      imageAlt: 'List of books',
+    },
+    technologies: ['HTML', 'JavaScript', 'CSS'],
+    liveUrl: 'https://alexander16108.github.io/Chaws-Awesome-B00k-Store/',
+    soureUrl: 'https://github.com/alexander16108/Chaws-Awesome-B00k-Store',
+  },
 ];
 
 // GenerateHTML
@@ -112,7 +125,7 @@ function generateFirstCard() {
   htmlText += `</ul>
                   <br />
 
-                    <button data-modal-target="#modals" class="orange-button">See Project</button>
+                    <button data-modal-target="#modal" class="orange-button">See Project</button>
                     </div>
                 </li>
                 </div>
@@ -121,23 +134,23 @@ function generateFirstCard() {
 }
 
 function generateModal() {
-  let htmlText = `<div class="modal" id="modals">
+  let htmlText = `<div class="modal" id="modal">
                     <div class="modal-header">
-                     <div class="title">${projects[1].title}</div>
+                     <div class="title">${projects[0].title}</div>
                      <button data-close-button class="close-button">&times;</button>
                     </div>
                     <div class="top-buttons">
                       <ul class="buttons">`;
 
-  for (let i = 0; i < projects[1].technologies.length; i += 1) {
+  for (let i = 0; i < projects[0].technologies.length; i += 1) {
     htmlText += `<li><button type="button" class="button"
-              >${projects[1].technologies[i]}</button></li>`;
+              >${projects[0].technologies[i]}</button></li>`;
   }
   htmlText += `</ul>
                   </div>              
                   <div class="theBody">
                   <div class="popUp-img">
-                    <img src="${projects[1].image.imageUrl}" alt="${projects[1].image.imageAlt}">
+                    <img src="${projects[0].image.imageUrl}" alt="${projects[0].image.imageAlt}">
                   </div>
   
                   <div class="body-button">
@@ -146,8 +159,8 @@ function generateModal() {
                     </div>
   
                     <div class="bt-buttons">
-                      <a href="${projects[1].liveUrl}" class="orange-button">See Live       <i class="fa fa-external-link"></i></a>
-                      <a href="${projects[1].sourceUrl}" class="orange-button">See Source   <i class="fa fa-github"></i></a>
+                      <a href="${projects[0].liveUrl}" class="orange-button">See Live       <i class="fa fa-external-link"></i></a>
+                      <a href="${projects[0].sourceUrl}" class="orange-button">See Source   <i class="fa fa-github"></i></a>
                     </div>
                   </div>
                 </div>  
@@ -158,9 +171,9 @@ function generateModal() {
 }
 
 function generateModal1() {
-  let htmlText = `<div class="modal" id="modal">
+  let htmlText = `<div class="modal" id="modal1">
                     <div class="modal-header">
-                     <div class="title">${projects[0].title}</div>
+                     <div class="title">${projects[1].title}</div>
                      <button data-close-button class="close-button">&times;</button>
                     </div>
                     <div class="top-buttons">
@@ -183,8 +196,8 @@ function generateModal1() {
                     </div>
   
                     <div class="bt-buttons">
-                      <a href="${projects[0].liveUrl}" class="orange-button">See Live       <i class="fa fa-external-link"></i></a>
-                      <a href="${projects[0].sourceUrl}" class="orange-button">See Source   <i class="fa fa-github"></i></a>
+                      <a href="${projects[1].liveUrl}" class="orange-button">See Live       <i class="fa fa-external-link"></i></a>
+                      <a href="${projects[1].sourceUrl}" class="orange-button">See Source   <i class="fa fa-github"></i></a>
                     </div>
                   </div>
                 </div>  
@@ -197,15 +210,15 @@ function generateModal1() {
 function generateModal2() {
   let htmlText = `<div class="modal" id="modal2">
                     <div class="modal-header">
-                     <div class="title">${projects[1].title}</div>
+                     <div class="title">${projects[2].title}</div>
                      <button data-close-button class="close-button">&times;</button>
                     </div>
                     <div class="top-buttons">
                       <ul class="buttons">`;
 
-  for (let i = 0; i < projects[1].technologies.length; i += 1) {
+  for (let i = 0; i < projects[2].technologies.length; i += 1) {
     htmlText += `<li><button type="button" class="button"
-              >${projects[1].technologies[i]}</button></li>`;
+              >${projects[2].technologies[i]}</button></li>`;
   }
   htmlText += `</ul>
                   </div>              
@@ -220,8 +233,8 @@ function generateModal2() {
                     </div>
   
                     <div class="bt-buttons">
-                      <a href="${projects[0].liveUrl}" class="orange-button">See Live       <i class="fa fa-external-link"></i></a>
-                      <a href="${projects[0].sourceUrl}" class="orange-button">See Source   <i class="fa fa-github"></i></a>
+                      <a href="${projects[2].liveUrl}" class="orange-button">See Live       <i class="fa fa-external-link"></i></a>
+                      <a href="${projects[2].sourceUrl}" class="orange-button">See Source   <i class="fa fa-github"></i></a>
                     </div>
                   </div>
                 </div>  
@@ -240,7 +253,7 @@ function generateModal3() {
                     <div class="top-buttons">
                       <ul class="buttons">`;
 
-  for (let i = 0; i < projects[1].technologies.length; i += 1) {
+  for (let i = 0; i < projects[3].technologies.length; i += 1) {
     htmlText += `<li><button type="button" class="button"
               >${projects[1].technologies[i]}</button></li>`;
   }
@@ -257,8 +270,8 @@ function generateModal3() {
                     </div>
   
                     <div class="bt-buttons">
-                      <a href="${projects[0].liveUrl}" class="orange-button">See Live       <i class="fa fa-external-link"></i></a>
-                      <a href="${projects[0].sourceUrl}" class="orange-button">See Source   <i class="fa fa-github"></i></a>
+                      <a href="${projects[3].liveUrl}" class="orange-button">See Live       <i class="fa fa-external-link"></i></a>
+                      <a href="${projects[3].sourceUrl}" class="orange-button">See Source   <i class="fa fa-github"></i></a>
                     </div>
                   </div>
                 </div>  
@@ -277,9 +290,9 @@ function generateModal4() {
                     <div class="top-buttons">
                       <ul class="buttons">`;
 
-  for (let i = 0; i < projects[1].technologies.length; i += 1) {
+  for (let i = 0; i < projects[4].technologies.length; i += 1) {
     htmlText += `<li><button type="button" class="button"
-              >${projects[1].technologies[i]}</button></li>`;
+              >${projects[4].technologies[i]}</button></li>`;
   }
   htmlText += `</ul>
                   </div>              
@@ -294,8 +307,8 @@ function generateModal4() {
                     </div>
   
                     <div class="bt-buttons">
-                      <a href="${projects[0].liveUrl}" class="orange-button">See Live       <i class="fa fa-external-link"></i></a>
-                      <a href="${projects[0].sourceUrl}" class="orange-button">See Source   <i class="fa fa-github"></i></a>
+                      <a href="${projects[4].liveUrl}" class="orange-button">See Live       <i class="fa fa-external-link"></i></a>
+                      <a href="${projects[4].sourceUrl}" class="orange-button">See Source   <i class="fa fa-github"></i></a>
                     </div>
                   </div>
                 </div>  
@@ -314,7 +327,7 @@ function generateModal5() {
                     <div class="top-buttons">
                       <ul class="buttons">`;
 
-  for (let i = 0; i < projects[1].technologies.length; i += 1) {
+  for (let i = 0; i < projects[5].technologies.length; i += 1) {
     htmlText += `<li><button type="button" class="button"
               >${projects[1].technologies[i]}</button></li>`;
   }
@@ -331,8 +344,8 @@ function generateModal5() {
                     </div>
   
                     <div class="bt-buttons">
-                      <a href="${projects[0].liveUrl}" class="orange-button">See Live       <i class="fa fa-external-link"></i></a>
-                      <a href="${projects[0].sourceUrl}" class="orange-button">See Source   <i class="fa fa-github"></i></a>
+                      <a href="${projects[5].liveUrl}" class="orange-button">See Live       <i class="fa fa-external-link"></i></a>
+                      <a href="${projects[5].sourceUrl}" class="orange-button">See Source   <i class="fa fa-github"></i></a>
                     </div>
                   </div>
                 </div>  
@@ -343,33 +356,33 @@ function generateModal5() {
 }
 
 function generateModal6() {
-  let htmlText = `<div class="modal" id="modal1">
+  let htmlText = `<div class="modal" id="modal6">
                     <div class="modal-header">
-                     <div class="title">${projects[0].title}</div>
+                     <div class="title">${projects[6].title}</div>
                      <button data-close-button class="close-button">&times;</button>
                     </div>
                     <div class="top-buttons">
                       <ul class="buttons">`;
 
-  for (let i = 0; i < projects[1].technologies.length; i += 1) {
+  for (let i = 0; i < projects[6].technologies.length; i += 1) {
     htmlText += `<li><button type="button" class="button"
-              >${projects[1].technologies[i]}</button></li>`;
+              >${projects[6].technologies[i]}</button></li>`;
   }
   htmlText += `</ul>
                   </div>              
                   <div class="theBody">
                   <div class="popUp-img">
-                    <img src="${projects[5].image.imageUrl}" alt="${projects[5].image.imageAlt}">
+                    <img src="${projects[6].image.imageUrl}" alt="${projects[6].image.imageAlt}">
                   </div>
   
                   <div class="body-button">
                     <div class="modal-body">
-                    ${projects[5].description}
+                    ${projects[6].description}
                     </div>
   
                     <div class="bt-buttons">
-                      <a href="${projects[0].liveUrl}" class="orange-button">See Live       <i class="fa fa-external-link"></i></a>
-                      <a href="${projects[0].sourceUrl}" class="orange-button">See Source   <i class="fa fa-github"></i></a>
+                      <a href="${projects[6].liveUrl}" class="orange-button">See Live       <i class="fa fa-external-link"></i></a>
+                      <a href="${projects[6].sourceUrl}" class="orange-button">See Source   <i class="fa fa-github"></i></a>
                     </div>
                   </div>
                 </div>  
@@ -383,142 +396,81 @@ function generateSecondCard() {
   let htmlText = `<li>
                     <ul class="card2container">
                       <li class="card2 first">
-                        <h3>${projects[4].title}<br/>${projects[4].title2}</h3>
-
-                        <p>${projects[4].description}</p>
-
+                        <h3>${projects[1].title}</h3>
+                        <p>${projects[1].description}</p>
                         <ul class="buttons1">`;
+  for (let i = 0; i < projects[1].technologies.length; i += 1) {
+    htmlText += `<li><button type="button" class="button1">${projects[1].technologies[i]}</button></li>`;
+  }
+  htmlText += `</ul>
+                  <button data-modal-target="#modal1" type="button" class="orange-button orange-button3">
+                    See Project
+                  </button>
+                </li>
+      
+              <li class="card2 second">
+                <h3>${projects[2].title}</h3>
+                <p>${projects[2].description}</p>
+              <ul class="buttons1">`;
+  for (let i = 0; i < projects[2].technologies.length; i += 1) {
+    htmlText += `<li><button type="button" class="button1">${projects[2].technologies[i]}</button></li>`;
+  }
+  htmlText += `</ul>
+                <button data-modal-target="#modal2" type="button" class="orange-button orange-button3">
+                See Project
+              </button>
+              </li>
+
+              <li class="card2 third">
+              <h3>${projects[3].title}</h3>
+              <p>${projects[3].description}</p>
+              <ul class="buttons1">`;
+  for (let i = 0; i < projects[3].technologies.length; i += 1) {
+    htmlText += `<li><button type="button" class="button1">${projects[3].technologies[i]}</button></li>`;
+  }
+  htmlText += `</ul>
+                <button data-modal-target="#modal3" type="button" class="orange-button orange-button3">
+                See Project
+              </button>
+              </li>
+
+              <li class="card2 forth">
+              <h3>${projects[4].title}</h3>
+              <p>${projects[4].description}</p>
+              <ul class="buttons1">`;
   for (let i = 0; i < projects[4].technologies.length; i += 1) {
     htmlText += `<li><button type="button" class="button1">${projects[4].technologies[i]}</button></li>`;
   }
   htmlText += `</ul>
-
-                        <button data-modal-target="#modal" type="button" class="orange-button orange-button3">
-                          See Project
-                        </button>
-                     </li> 
-                     
-
-                     <li class="card2 second">
-              <h3>
-                Professional Art <br />
-                Printing Data
-              </h3>
-
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard
-              </p>
-
-              <ul class="buttons1">
-                <li><button type="button" class="button1">html</button></li>
-                <li>
-                  <button type="button" class="button1">bootstrap</button>
-                </li>
-                <li><button type="button" class="button1">Ruby</button></li>
-              </ul>
-
-              <button data-modal-target="#modal2" type="button" class="orange-button orange-button2">
+                <button data-modal-target="#modal4" type="button" class="orange-button orange-button3">
                 See Project
               </button>
-            </li>
-
-            <li class="card2 third">
-            <h3>
-              Professional Art <br />
-              Printing Data
-            </h3>
-
-            <p>
-              A daily selection of privately personalized reads; no accounts
-              or sign-ups required. has been the industry's standard
-            </p>
-
-            <ul class="buttons1">
-              <li><button type="button" class="button1">html</button></li>
-              <li>
-                <button type="button" class="button1">bootstrap</button>
               </li>
-              <li><button type="button" class="button1">Ruby</button></li>
-            </ul>
 
-            <button data-modal-target="#modal3" type="button" class="orange-button orange-button2">
-              See Project
-            </button>
-          </li>
-
-          <li class="card2 fourth">
-            <h3>
-              Professional Art <br />
-              Printing Data
-            </h3>
-
-            <p>
-              A daily selection of privately personalized reads; no accounts
-              or sign-ups required. has been the industry's standard
-            </p>
-
-            <ul class="buttons1">
-              <li><button type="button" class="button1">html</button></li>
-              <li>
-                <button type="button" class="button1">bootstrap</button>
+              <li class="card2 fifth">
+              <h3>${projects[5].title}</h3>
+              <p>${projects[5].description}</p>
+              <ul class="buttons1">`;
+  for (let i = 0; i < projects[5].technologies.length; i += 1) {
+    htmlText += `<li><button type="button" class="button1">${projects[5].technologies[i]}</button></li>`;
+  }
+  htmlText += `</ul>
+                <button data-modal-target="#modal5" type="button" class="orange-button orange-button3">
+                See Project
+              </button>
               </li>
-              <li><button type="button" class="button1">Ruby</button></li>
-            </ul>
 
-            <button data-modal-target="#modal4" type="button" class="orange-button orange-button2">
-              See Project
-            </button>
-          </li>
-
-          <li class="card2 fifth">
-            <h3>
-              Professional Art <br />
-              Printing Data
-            </h3>
-
-            <p>
-              A daily selection of privately personalized reads; no accounts
-              or sign-ups required. has been the industry's standard
-            </p>
-
-            <ul class="buttons1">
-              <li><button type="button" class="button1">html</button></li>
-              <li>
-                <button type="button" class="button1">bootstrap</button>
-              </li>
-              <li><button type="button" class="button1">Ruby</button></li>
-            </ul>
-
-            <button data-modal-target="#modal5" type="button" class="orange-button orange-button2">
-              See Project
-            </button>
-          </li>
-
-          <li class="card2 sixth">
-            <h3>
-              Professional Art <br />
-              Printing Data
-            </h3>
-
-            <p>
-              A daily selection of privately personalized reads; no accounts
-              or sign-ups required. has been the industry's standard
-            </p>
-
-            <ul class="buttons1">
-              <li><button type="button" class="button1">html</button></li>
-              <li>
-                <button type="button" class="button1">bootstrap</button>
-              </li>
-              <li><button type="button" class="button1">Ruby</button></li>
-            </ul>
-
-            <button data-modal-target="#modal1" type="button" class="orange-button orange-button2">
-              See Project
-            </button>
-          </li>
-        </ul>
+              <li class="card2 sixth">
+              <h3>${projects[6].title}</h3>
+              <p>${projects[6].description}</p>
+              <ul class="buttons1">`;
+  for (let i = 0; i < projects[6].technologies.length; i += 1) {
+    htmlText += `<li><button type="button" class="button1">${projects[6].technologies[i]}</button></li>`;
+  }
+  htmlText += `</ul>
+              <button data-modal-target="#modal6" type="button" class="orange-button orange-button3">
+                See Project
+              </button>
       </li>`;
 
   return htmlText;
