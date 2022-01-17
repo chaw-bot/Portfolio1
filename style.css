@@ -358,10 +358,32 @@ ul {
 .card2 {
   display: flex;
   flex-direction: column;
-  background-image: url(images/card2.png);
   justify-content: flex-end;
   list-style: none;
-  filter: contrast(1.5);
+}
+
+.first {
+  background-color: rgba(255,0,0,.3);
+}
+
+.second {
+  background-color: rgba(153,0,0,.7);
+}
+
+.third {
+  background-color: hsl(183, 90%, 19%);
+}
+
+.forth {
+  background-color: rgba(5, 21, 26, 0.7);
+}
+
+.fifth {
+  background-color: rgba(40, 91, 168, 0.7);
+}
+
+.sixth {
+  background-color: rgba(87, 4, 4, 0.7);
 }
 
 .card2 h3 {
@@ -384,6 +406,7 @@ ul {
   line-height: 24px;
   margin: 6px 0;
   padding: 0 24px;
+  opacity: 1;
 }
 
 .buttons1 {
@@ -859,10 +882,6 @@ legend {
     width: 50%;
   }
 
-  .first p {
-    display: none;
-  }
-
   .card article p {
     font-size: 20px;
     line-height: 32px;
@@ -923,58 +942,9 @@ legend {
     justify-content: space-around;
   }
 
-  .first {
-    background-image: url(images/first.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    filter: contrast(1.5);
-  }
-
-  .first h3 {
-    display: none;
-  }
-
-  .first .button1 {
-    display: none;
-  }
-
-  /* .orange-button2 {
-    display: none;
-  } */
-
-  .second {
-    background-image: url(images/second.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    filter: contrast(1.5);
-  }
-
-  .third {
-    background-image: url(images/third.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    filter: contrast(1.5);
-  }
-
-  .fourth {
-    background-image: url(images/fourth.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    filter: contrast(1.5);
-  }
-
-  .fifth {
-    background-image: url(images/fifth.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    filter: contrast(1.5);
-  }
-
-  .sixth {
-    background-image: url(images/third.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    filter: contrast(1.5);
+  .card2container li {
+    grid-template-rows: repeat(6, 386px);
+    grid-row-gap: 10px;
   }
 
   .buttons1 {
